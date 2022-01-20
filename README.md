@@ -2,7 +2,7 @@
 
 ## 安装
 
-```php
+```bash
 composer install -vvv # 安装 PHP 依赖
 
 cp .env.example .env # 创建环境变量
@@ -13,11 +13,11 @@ touch database/database.sqlite # 创建 sqlite 数据库文件
 
 ## 数据填充
 
-```php
+```bash
 php artisan migrate:refresh --seeder=PostSeeder
 ```
 
 ## 测试
-```php
+```bash
 ./vendor/bin/phpunit
 ```
