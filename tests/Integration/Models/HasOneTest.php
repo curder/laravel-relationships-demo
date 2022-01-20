@@ -4,6 +4,7 @@ namespace Tests\Integration\Models;
 
 use App\Models\User;
 use App\Models\UserAccount;
+use Illuminate\Database\Eloquent\Relations\HasOneOrMany;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Tests\TestCase;
@@ -26,7 +27,7 @@ class HasOneTest extends TestCase
 
         $this->assertTrue($user_account->is($user->account));
         $this->assertInstanceOf(UserAccount::class, $user->account);
-        $this->assertInstanceOf(Relation::class, $user->account());
+        $this->assertInstanceOf(HasOneOrMany::class, $user->account());
     }
 
     /** @test */
