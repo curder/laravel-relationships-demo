@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 /**
- * @property integer user_id
+ * @property int user_id
  * @property \App\Models\User user
  */
 class Post extends Model
@@ -16,8 +16,7 @@ class Post extends Model
 
     protected $fillable = ['title', 'user_id', 'body', 'published_at'];
 
-
-    public function user() : BelongsTo
+    public function user(): BelongsTo
     {
         /**
          * User::class related 关联模型

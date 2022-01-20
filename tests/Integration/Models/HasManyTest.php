@@ -5,11 +5,10 @@ namespace Tests\Integration\Models;
 use App\Models\Post;
 use App\Models\User;
 use Illuminate\Database\Eloquent\Collection;
-use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOneOrMany;
 use Illuminate\Database\Eloquent\Relations\Relation;
-use Tests\TestCase;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
+use Tests\TestCase;
 
 class HasManyTest extends TestCase
 {
@@ -40,5 +39,4 @@ class HasManyTest extends TestCase
         $this->assertInstanceOf(User::class, $post->user);
         $this->assertInstanceOf(Relation::class, $post->user());
     }
-
 }
