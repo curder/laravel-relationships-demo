@@ -14,6 +14,12 @@ php artisan key:generate # 生成APP对应的key
 touch database/database.sqlite # 创建 sqlite 数据库文件
 ```
 
+## 数据填充
+
+```bash
+php artisan migrate:refresh --seeder=UserAccountSeeder
+```
+
 ## 测试
 
 ```php
