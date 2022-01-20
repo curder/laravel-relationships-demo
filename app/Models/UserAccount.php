@@ -20,7 +20,7 @@ class UserAccount extends Model
     /**
      * @return BelongsTo
      */
-    public function user() : BelongsTo
+    public function user(): BelongsTo
     {
         /**
          * User::class related 关联模型
