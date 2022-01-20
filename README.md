@@ -1,5 +1,8 @@
 # hasMany 一对多
 
+[![GitHub Tests Action Status](https://github.com/curder/laravel-test-demo/actions/workflows/run-test.yml/badge.svg)](https://github.com/curder/laravel-test-demo/actions?query=run-test%3Ahas-many)
+[![GitHub Code Style Action Status](https://github.com/curder/laravel-test-demo/actions/workflows/php-cs-fixer.yml/badge.svg)](https://github.com/curder/laravel-test-demo/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Ahas-many)
+
 ## 安装
 
 ```bash
