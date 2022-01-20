@@ -9,14 +9,9 @@
         {
             "name": "asm89/stack-cors",
             "version": "v2.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/asm89/stack-cors.git",
-                "reference": "73e5b88775c64ccc0b84fb60836b30dc9d92ac4a"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/asm89/stack-cors/v2.1.1/asm89-stack-cors-v2.1.1.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/asm89/stack-cors/v2.1.1/asm89-stack-cors-v2.1.1.zip",
                 "reference": "73e5b88775c64ccc0b84fb60836b30dc9d92ac4a",
                 "shasum": ""
             },
@@ -60,14 +55,9 @@
         {
             "name": "brick/math",
             "version": "0.9.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/brick/math.git",
-                "reference": "ca57d18f028f84f777b2168cd1911b0dee2343ae"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/brick/math/0.9.3/brick-math-0.9.3.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/brick/math/0.9.3/brick-math-0.9.3.zip",
                 "reference": "ca57d18f028f84f777b2168cd1911b0dee2343ae",
                 "shasum": ""
             },
@@ -100,29 +90,14 @@
                 "brick",
                 "math"
             ],
-            "funding": [
-                {
-                    "url": "https://github.com/BenMorel",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/brick/math",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2021-08-15T20:50:18+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
             "version": "v3.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/dflydev/dflydev-dot-access-data.git",
-                "reference": "0992cc19268b259a39e86f296da5f0677841f42c"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/dflydev/dot-access-data/v3.0.1/dflydev-dot-access-data-v3.0.1.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/dflydev/dot-access-data/v3.0.1/dflydev-dot-access-data-v3.0.1.zip",
                 "reference": "0992cc19268b259a39e86f296da5f0677841f42c",
                 "shasum": ""
             },
@@ -185,14 +160,9 @@
         {
             "name": "doctrine/inflector",
             "version": "2.0.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/doctrine/inflector.git",
-                "reference": "8b7ff3e4b7de6b2c84da85637b59fd2880ecaa89"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/doctrine/inflector/2.0.4/doctrine-inflector-2.0.4.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/doctrine/inflector/2.0.4/doctrine-inflector-2.0.4.zip",
                 "reference": "8b7ff3e4b7de6b2c84da85637b59fd2880ecaa89",
                 "shasum": ""
             },
@@ -252,33 +222,14 @@
                 "uppercase",
                 "words"
             ],
-            "funding": [
-                {
-                    "url": "https://www.doctrine-project.org/sponsorship.html",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://www.patreon.com/phpdoctrine",
-                    "type": "patreon"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Finflector",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2021-10-22T20:16:43+00:00"
         },
         {
             "name": "doctrine/lexer",
             "version": "1.2.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/doctrine/lexer.git",
-                "reference": "9c50f840f257bbb941e6f4a0e94ccf5db5c3f76c"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/doctrine/lexer/1.2.2/doctrine-lexer-1.2.2.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/doctrine/lexer/1.2.2/doctrine-lexer-1.2.2.zip",
                 "reference": "9c50f840f257bbb941e6f4a0e94ccf5db5c3f76c",
                 "shasum": ""
             },
@@ -323,33 +274,14 @@
                 "parser",
                 "php"
             ],
-            "funding": [
-                {
-                    "url": "https://www.doctrine-project.org/sponsorship.html",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://www.patreon.com/phpdoctrine",
-                    "type": "patreon"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Flexer",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2022-01-12T08:27:12+00:00"
         },
         {
             "name": "dragonmantank/cron-expression",
             "version": "v3.3.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/dragonmantank/cron-expression.git",
-                "reference": "be85b3f05b46c39bbc0d95f6c071ddff669510fa"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/dragonmantank/cron-expression/v3.3.1/dragonmantank-cron-expression-v3.3.1.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/dragonmantank/cron-expression/v3.3.1/dragonmantank-cron-expression-v3.3.1.zip",
                 "reference": "be85b3f05b46c39bbc0d95f6c071ddff669510fa",
                 "shasum": ""
             },
@@ -387,25 +319,14 @@
                 "cron",
                 "schedule"
             ],
-            "funding": [
-                {
-                    "url": "https://github.com/dragonmantank",
-                    "type": "github"
-                }
-            ],
             "time": "2022-01-18T15:43:28+00:00"
         },
         {
             "name": "egulias/email-validator",
             "version": "2.1.25",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/egulias/EmailValidator.git",
-                "reference": "0dbf5d78455d4d6a41d186da50adc1122ec066f4"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/egulias/email-validator/2.1.25/egulias-email-validator-2.1.25.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/egulias/email-validator/2.1.25/egulias-email-validator-2.1.25.zip",
                 "reference": "0dbf5d78455d4d6a41d186da50adc1122ec066f4",
                 "shasum": ""
             },
@@ -450,25 +371,14 @@
                 "validation",
                 "validator"
             ],
-            "funding": [
-                {
-                    "url": "https://github.com/egulias",
-                    "type": "github"
-                }
-            ],
             "time": "2020-12-29T14:50:06+00:00"
         },
         {
             "name": "fruitcake/laravel-cors",
             "version": "v2.0.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fruitcake/laravel-cors.git",
-                "reference": "3a066e5cac32e2d1cdaacd6b961692778f37b5fc"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/fruitcake/laravel-cors/v2.0.5/fruitcake-laravel-cors-v2.0.5.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/fruitcake/laravel-cors/v2.0.5/fruitcake-laravel-cors-v2.0.5.zip",
                 "reference": "3a066e5cac32e2d1cdaacd6b961692778f37b5fc",
                 "shasum": ""
             },
@@ -522,29 +432,14 @@
                 "crossdomain",
                 "laravel"
             ],
-            "funding": [
-                {
-                    "url": "https://fruitcake.nl",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/barryvdh",
-                    "type": "github"
-                }
-            ],
             "time": "2022-01-03T14:53:04+00:00"
         },
         {
             "name": "graham-campbell/result-type",
             "version": "v1.0.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/GrahamCampbell/Result-Type.git",
-                "reference": "0690bde05318336c7221785f2a932467f98b64ca"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/graham-campbell/result-type/v1.0.4/graham-campbell-result-type-v1.0.4.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/graham-campbell/result-type/v1.0.4/graham-campbell-result-type-v1.0.4.zip",
                 "reference": "0690bde05318336c7221785f2a932467f98b64ca",
                 "shasum": ""
             },
@@ -579,29 +474,14 @@
                 "Result-Type",
                 "result"
             ],
-            "funding": [
-                {
-                    "url": "https://github.com/GrahamCampbell",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/graham-campbell/result-type",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2021-11-21T21:41:47+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
             "version": "7.4.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "ee0a041b1760e6a53d2a39c8c34115adc2af2c79"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/guzzlehttp/guzzle/7.4.1/guzzlehttp-guzzle-7.4.1.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/guzzlehttp/guzzle/7.4.1/guzzlehttp-guzzle-7.4.1.zip",
                 "reference": "ee0a041b1760e6a53d2a39c8c34115adc2af2c79",
                 "shasum": ""
             },
@@ -694,33 +574,14 @@
                 "rest",
                 "web service"
             ],
-            "funding": [
-                {
-                    "url": "https://github.com/GrahamCampbell",
-                    "type": "github"
-                },
-                {
-                    "url": "https://github.com/Nyholm",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/guzzlehttp/guzzle",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2021-12-06T18:43:05+00:00"
         },
         {
             "name": "guzzlehttp/promises",
             "version": "1.5.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/guzzle/promises.git",
-                "reference": "fe752aedc9fd8fcca3fe7ad05d419d32998a06da"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/guzzlehttp/promises/1.5.1/guzzlehttp-promises-1.5.1.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/guzzlehttp/promises/1.5.1/guzzlehttp-promises-1.5.1.zip",
                 "reference": "fe752aedc9fd8fcca3fe7ad05d419d32998a06da",
                 "shasum": ""
             },
@@ -773,33 +634,14 @@
             "keywords": [
                 "promise"
             ],
-            "funding": [
-                {
-                    "url": "https://github.com/GrahamCampbell",
-                    "type": "github"
-                },
-                {
-                    "url": "https://github.com/Nyholm",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/guzzlehttp/promises",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2021-10-22T20:56:57+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
             "version": "2.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/guzzle/psr7.git",
-                "reference": "089edd38f5b8abba6cb01567c2a8aaa47cec4c72"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/guzzlehttp/psr7/2.1.0/guzzlehttp-psr7-2.1.0.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/guzzlehttp/psr7/2.1.0/guzzlehttp-psr7-2.1.0.zip",
                 "reference": "089edd38f5b8abba6cb01567c2a8aaa47cec4c72",
                 "shasum": ""
             },
@@ -883,33 +725,14 @@
                 "uri",
                 "url"
             ],
-            "funding": [
-                {
-                    "url": "https://github.com/GrahamCampbell",
-                    "type": "github"
-                },
-                {
-                    "url": "https://github.com/Nyholm",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/guzzlehttp/psr7",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2021-10-06T17:43:30+00:00"
         },
         {
             "name": "laravel/framework",
             "version": "v8.80.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/framework.git",
-                "reference": "8949a2e46b0f274f39c61eee8d5de1dc6a1f686b"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/laravel/framework/v8.80.0/laravel-framework-v8.80.0.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/laravel/framework/v8.80.0/laravel-framework-v8.80.0.zip",
                 "reference": "8949a2e46b0f274f39c61eee8d5de1dc6a1f686b",
                 "shasum": ""
             },
@@ -1070,14 +893,9 @@
         {
             "name": "laravel/sanctum",
             "version": "v2.14.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/sanctum.git",
-                "reference": "0647a87140c7522e75826cffcadb3ad6e01f71e9"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/laravel/sanctum/v2.14.0/laravel-sanctum-v2.14.0.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/laravel/sanctum/v2.14.0/laravel-sanctum-v2.14.0.zip",
                 "reference": "0647a87140c7522e75826cffcadb3ad6e01f71e9",
                 "shasum": ""
             },
@@ -1129,14 +947,9 @@
         {
             "name": "laravel/serializable-closure",
             "version": "v1.0.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/serializable-closure.git",
-                "reference": "25de3be1bca1b17d52ff0dc02b646c667ac7266c"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/laravel/serializable-closure/v1.0.5/laravel-serializable-closure-v1.0.5.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/laravel/serializable-closure/v1.0.5/laravel-serializable-closure-v1.0.5.zip",
                 "reference": "25de3be1bca1b17d52ff0dc02b646c667ac7266c",
                 "shasum": ""
             },
@@ -1183,14 +996,9 @@
         {
             "name": "laravel/tinker",
             "version": "v2.7.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/tinker.git",
-                "reference": "5f2f9815b7631b9f586a3de7933c25f9327d4073"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/laravel/tinker/v2.7.0/laravel-tinker-v2.7.0.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/laravel/tinker/v2.7.0/laravel-tinker-v2.7.0.zip",
                 "reference": "5f2f9815b7631b9f586a3de7933c25f9327d4073",
                 "shasum": ""
             },
@@ -1246,14 +1054,9 @@
         {
             "name": "league/commonmark",
             "version": "2.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "17d2b9cb5161a2ea1a8dd30e6991d668e503fb9d"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/league/commonmark/2.1.1/league-commonmark-2.1.1.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/league/commonmark/2.1.1/league-commonmark-2.1.1.zip",
                 "reference": "17d2b9cb5161a2ea1a8dd30e6991d668e503fb9d",
                 "shasum": ""
             },
@@ -1318,37 +1121,14 @@
                 "md",
                 "parser"
             ],
-            "funding": [
-                {
-                    "url": "https://www.colinodell.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://www.paypal.me/colinpodell/10.00",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/colinodell",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/league/commonmark",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2022-01-02T18:25:06+00:00"
         },
         {
             "name": "league/config",
             "version": "v1.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/thephpleague/config.git",
-                "reference": "a9d39eeeb6cc49d10a6e6c36f22c4c1f4a767f3e"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/league/config/v1.1.1/league-config-v1.1.1.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/league/config/v1.1.1/league-config-v1.1.1.zip",
                 "reference": "a9d39eeeb6cc49d10a6e6c36f22c4c1f4a767f3e",
                 "shasum": ""
             },
@@ -1397,33 +1177,14 @@
                 "nested",
                 "schema"
             ],
-            "funding": [
-                {
-                    "url": "https://www.colinodell.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://www.paypal.me/colinpodell/10.00",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/colinodell",
-                    "type": "github"
-                }
-            ],
             "time": "2021-08-14T12:15:32+00:00"
         },
         {
             "name": "league/flysystem",
             "version": "1.1.9",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "094defdb4a7001845300334e7c1ee2335925ef99"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/league/flysystem/1.1.9/league-flysystem-1.1.9.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/league/flysystem/1.1.9/league-flysystem-1.1.9.zip",
                 "reference": "094defdb4a7001845300334e7c1ee2335925ef99",
                 "shasum": ""
             },
@@ -1494,25 +1255,14 @@
                 "sftp",
                 "storage"
             ],
-            "funding": [
-                {
-                    "url": "https://offset.earth/frankdejonge",
-                    "type": "other"
-                }
-            ],
             "time": "2021-12-09T09:40:50+00:00"
         },
         {
             "name": "league/mime-type-detection",
             "version": "1.9.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/thephpleague/mime-type-detection.git",
-                "reference": "aa70e813a6ad3d1558fc927863d47309b4c23e69"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/league/mime-type-detection/1.9.0/league-mime-type-detection-1.9.0.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/league/mime-type-detection/1.9.0/league-mime-type-detection-1.9.0.zip",
                 "reference": "aa70e813a6ad3d1558fc927863d47309b4c23e69",
                 "shasum": ""
             },
@@ -1541,29 +1291,14 @@
                 }
             ],
             "description": "Mime-type detection for Flysystem",
-            "funding": [
-                {
-                    "url": "https://github.com/frankdejonge",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/league/flysystem",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2021-11-21T11:48:40+00:00"
         },
         {
             "name": "monolog/monolog",
             "version": "2.3.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "fd4380d6fc37626e2f799f29d91195040137eba9"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/monolog/monolog/2.3.5/monolog-monolog-2.3.5.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/monolog/monolog/2.3.5/monolog-monolog-2.3.5.zip",
                 "reference": "fd4380d6fc37626e2f799f29d91195040137eba9",
                 "shasum": ""
             },
@@ -1635,29 +1370,14 @@
                 "logging",
                 "psr-3"
             ],
-            "funding": [
-                {
-                    "url": "https://github.com/Seldaek",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/monolog/monolog",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2021-10-01T21:08:31+00:00"
         },
         {
             "name": "nesbot/carbon",
             "version": "2.55.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "8c2a18ce3e67c34efc1b29f64fe61304368259a2"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/nesbot/carbon/2.55.2/nesbot-carbon-2.55.2.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/nesbot/carbon/2.55.2/nesbot-carbon-2.55.2.zip",
                 "reference": "8c2a18ce3e67c34efc1b29f64fe61304368259a2",
                 "shasum": ""
             },
@@ -1725,29 +1445,14 @@
                 "datetime",
                 "time"
             ],
-            "funding": [
-                {
-                    "url": "https://opencollective.com/Carbon",
-                    "type": "open_collective"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/nesbot/carbon",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2021-12-03T14:59:52+00:00"
         },
         {
             "name": "nette/schema",
             "version": "v1.2.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nette/schema.git",
-                "reference": "9a39cef03a5b34c7de64f551538cbba05c2be5df"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/nette/schema/v1.2.2/nette-schema-v1.2.2.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/nette/schema/v1.2.2/nette-schema-v1.2.2.zip",
                 "reference": "9a39cef03a5b34c7de64f551538cbba05c2be5df",
                 "shasum": ""
             },
@@ -1797,14 +1502,9 @@
         {
             "name": "nette/utils",
             "version": "v3.2.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nette/utils.git",
-                "reference": "2f261e55bd6a12057442045bf2c249806abc1d02"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/nette/utils/v3.2.6/nette-utils-v3.2.6.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/nette/utils/v3.2.6/nette-utils-v3.2.6.zip",
                 "reference": "2f261e55bd6a12057442045bf2c249806abc1d02",
                 "shasum": ""
             },
@@ -1877,14 +1577,9 @@
         {
             "name": "nikic/php-parser",
             "version": "v4.13.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "210577fe3cf7badcc5814d99455df46564f3c077"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/nikic/php-parser/v4.13.2/nikic-php-parser-v4.13.2.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/nikic/php-parser/v4.13.2/nikic-php-parser-v4.13.2.zip",
                 "reference": "210577fe3cf7badcc5814d99455df46564f3c077",
                 "shasum": ""
             },
@@ -1928,14 +1623,9 @@
         {
             "name": "opis/closure",
             "version": "3.6.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/opis/closure.git",
-                "reference": "06e2ebd25f2869e54a306dda991f7db58066f7f6"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/opis/closure/3.6.2/opis-closure-3.6.2.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/opis/closure/3.6.2/opis-closure-3.6.2.zip",
                 "reference": "06e2ebd25f2869e54a306dda991f7db58066f7f6",
                 "shasum": ""
             },
@@ -1988,14 +1678,9 @@
         {
             "name": "phpoption/phpoption",
             "version": "1.8.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/schmittjoh/php-option.git",
-                "reference": "eab7a0df01fe2344d172bff4cd6dbd3f8b84ad15"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/phpoption/phpoption/1.8.1/phpoption-phpoption-1.8.1.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/phpoption/phpoption/1.8.1/phpoption-phpoption-1.8.1.zip",
                 "reference": "eab7a0df01fe2344d172bff4cd6dbd3f8b84ad15",
                 "shasum": ""
             },
@@ -2039,29 +1724,14 @@
                 "php",
                 "type"
             ],
-            "funding": [
-                {
-                    "url": "https://github.com/GrahamCampbell",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/phpoption/phpoption",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2021-12-04T23:24:31+00:00"
         },
         {
             "name": "psr/container",
             "version": "1.1.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-fig/container.git",
-                "reference": "513e0666f7216c7459170d56df27dfcefe1689ea"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/psr/container/1.1.2/psr-container-1.1.2.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/psr/container/1.1.2/psr-container-1.1.2.zip",
                 "reference": "513e0666f7216c7459170d56df27dfcefe1689ea",
                 "shasum": ""
             },
@@ -2097,14 +1767,9 @@
         {
             "name": "psr/event-dispatcher",
             "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-fig/event-dispatcher.git",
-                "reference": "dbefd12671e8a14ec7f180cab83036ed26714bb0"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/psr/event-dispatcher/1.0.0/psr-event-dispatcher-1.0.0.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/psr/event-dispatcher/1.0.0/psr-event-dispatcher-1.0.0.zip",
                 "reference": "dbefd12671e8a14ec7f180cab83036ed26714bb0",
                 "shasum": ""
             },
@@ -2142,14 +1807,9 @@
         {
             "name": "psr/http-client",
             "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-fig/http-client.git",
-                "reference": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/psr/http-client/1.0.1/psr-http-client-1.0.1.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/psr/http-client/1.0.1/psr-http-client-1.0.1.zip",
                 "reference": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
                 "shasum": ""
             },
@@ -2190,14 +1850,9 @@
         {
             "name": "psr/http-factory",
             "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-fig/http-factory.git",
-                "reference": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/psr/http-factory/1.0.1/psr-http-factory-1.0.1.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/psr/http-factory/1.0.1/psr-http-factory-1.0.1.zip",
                 "reference": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
                 "shasum": ""
             },
@@ -2241,14 +1896,9 @@
         {
             "name": "psr/http-message",
             "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-fig/http-message.git",
-                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/psr/http-message/1.0.1/psr-http-message-1.0.1.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/psr/http-message/1.0.1/psr-http-message-1.0.1.zip",
                 "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
                 "shasum": ""
             },
@@ -2289,30 +1939,25 @@
         },
         {
             "name": "psr/log",
-            "version": "2.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-fig/log.git",
-                "reference": "ef29f6d262798707a9edd554e2b82517ef3a9376"
-            },
+            "version": "1.1.4",
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/psr/log/2.0.0/psr-log-2.0.0.zip",
-                "reference": "ef29f6d262798707a9edd554e2b82517ef3a9376",
+                "url": "https://mirrors.tencent.com/repository/composer/psr/log/1.1.4/psr-log-1.1.4.zip",
+                "reference": "d49695b909c3b7628b6289db5479a1c204601f11",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.0.0"
+                "php": ">=5.3.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0.x-dev"
+                    "dev-master": "1.1.x-dev"
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "Psr\\Log\\": "src"
+                    "Psr\\Log\\": "Psr/Log/"
                 }
             },
             "license": [
@@ -2331,19 +1976,14 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2021-07-14T16:41:46+00:00"
+            "time": "2021-05-03T11:20:27+00:00"
         },
         {
             "name": "psr/simple-cache",
             "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-fig/simple-cache.git",
-                "reference": "408d5eafb83c57f6365a3ca330ff23aa4a5fa39b"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/psr/simple-cache/1.0.1/psr-simple-cache-1.0.1.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/psr/simple-cache/1.0.1/psr-simple-cache-1.0.1.zip",
                 "reference": "408d5eafb83c57f6365a3ca330ff23aa4a5fa39b",
                 "shasum": ""
             },
@@ -2383,14 +2023,9 @@
         {
             "name": "psy/psysh",
             "version": "v0.11.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "570292577277f06f590635381a7f761a6cf4f026"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/psy/psysh/v0.11.1/psy-psysh-v0.11.1.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/psy/psysh/v0.11.1/psy-psysh-v0.11.1.zip",
                 "reference": "570292577277f06f590635381a7f761a6cf4f026",
                 "shasum": ""
             },
@@ -2453,14 +2088,9 @@
         {
             "name": "ralouphie/getallheaders",
             "version": "3.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ralouphie/getallheaders.git",
-                "reference": "120b605dfeb996808c31b6477290a714d356e822"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/ralouphie/getallheaders/3.0.3/ralouphie-getallheaders-3.0.3.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/ralouphie/getallheaders/3.0.3/ralouphie-getallheaders-3.0.3.zip",
                 "reference": "120b605dfeb996808c31b6477290a714d356e822",
                 "shasum": ""
             },
@@ -2492,14 +2122,9 @@
         {
             "name": "ramsey/collection",
             "version": "1.2.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ramsey/collection.git",
-                "reference": "cccc74ee5e328031b15640b51056ee8d3bb66c0a"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/ramsey/collection/1.2.2/ramsey-collection-1.2.2.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/ramsey/collection/1.2.2/ramsey-collection-1.2.2.zip",
                 "reference": "cccc74ee5e328031b15640b51056ee8d3bb66c0a",
                 "shasum": ""
             },
@@ -2551,29 +2176,14 @@
                 "queue",
                 "set"
             ],
-            "funding": [
-                {
-                    "url": "https://github.com/ramsey",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/ramsey/collection",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2021-10-10T03:01:02+00:00"
         },
         {
             "name": "ramsey/uuid",
             "version": "4.2.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ramsey/uuid.git",
-                "reference": "fc9bb7fb5388691fd7373cd44dcb4d63bbcf24df"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/ramsey/uuid/4.2.3/ramsey-uuid-4.2.3.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/ramsey/uuid/4.2.3/ramsey-uuid-4.2.3.zip",
                 "reference": "fc9bb7fb5388691fd7373cd44dcb4d63bbcf24df",
                 "shasum": ""
             },
@@ -2644,29 +2254,14 @@
                 "identifier",
                 "uuid"
             ],
-            "funding": [
-                {
-                    "url": "https://github.com/ramsey",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/ramsey/uuid",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2021-09-25T23:10:38+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
             "version": "v6.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "8a5d5072dca8f48460fce2f4131fcc495eec654c"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/swiftmailer/swiftmailer/v6.3.0/swiftmailer-swiftmailer-v6.3.0.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/swiftmailer/swiftmailer/v6.3.0/swiftmailer-swiftmailer-v6.3.0.zip",
                 "reference": "8a5d5072dca8f48460fce2f4131fcc495eec654c",
                 "shasum": ""
             },
@@ -2714,30 +2309,14 @@
                 "mail",
                 "mailer"
             ],
-            "funding": [
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/swiftmailer/swiftmailer",
-                    "type": "tidelift"
-                }
-            ],
-            "abandoned": "symfony/mailer",
             "time": "2021-10-18T15:26:12+00:00"
         },
         {
             "name": "symfony/console",
             "version": "v5.4.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/console.git",
-                "reference": "a2c6b7ced2eb7799a35375fb9022519282b5405e"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/symfony/console/v5.4.2/symfony-console-v5.4.2.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/symfony/console/v5.4.2/symfony-console-v5.4.2.zip",
                 "reference": "a2c6b7ced2eb7799a35375fb9022519282b5405e",
                 "shasum": ""
             },
@@ -2806,38 +2385,20 @@
                 "console",
                 "terminal"
             ],
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2021-12-20T16:11:12+00:00"
         },
         {
             "name": "symfony/css-selector",
-            "version": "v6.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/css-selector.git",
-                "reference": "380f86c1a9830226f42a08b5926f18aed4195f25"
-            },
+            "version": "v5.4.2",
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/symfony/css-selector/v6.0.2/symfony-css-selector-v6.0.2.zip",
-                "reference": "380f86c1a9830226f42a08b5926f18aed4195f25",
+                "url": "https://mirrors.tencent.com/repository/composer/symfony/css-selector/v5.4.2/symfony-css-selector-v5.4.2.zip",
+                "reference": "cfcbee910e159df402603502fe387e8b677c22fd",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.0.2"
+                "php": ">=7.2.5",
+                "symfony/polyfill-php80": "^1.16"
             },
             "type": "library",
             "autoload": {
@@ -2867,43 +2428,24 @@
             ],
             "description": "Converts CSS selectors to XPath expressions",
             "homepage": "https://symfony.com",
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2021-12-16T22:13:01+00:00"
+            "time": "2021-12-16T21:58:21+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
-            "version": "v3.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/deprecation-contracts.git",
-                "reference": "c726b64c1ccfe2896cb7df2e1331c357ad1c8ced"
-            },
+            "version": "v2.5.0",
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/symfony/deprecation-contracts/v3.0.0/symfony-deprecation-contracts-v3.0.0.zip",
-                "reference": "c726b64c1ccfe2896cb7df2e1331c357ad1c8ced",
+                "url": "https://mirrors.tencent.com/repository/composer/symfony/deprecation-contracts/v2.5.0/symfony-deprecation-contracts-v2.5.0.zip",
+                "reference": "6f981ee24cf69ee7ce9736146d1c57c2780598a8",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.0.2"
+                "php": ">=7.1"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "3.0-dev"
+                    "dev-main": "2.5-dev"
                 },
                 "thanks": {
                     "name": "symfony/contracts",
@@ -2930,33 +2472,14 @@
             ],
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2021-11-01T23:48:49+00:00"
+            "time": "2021-07-12T14:48:14+00:00"
         },
         {
             "name": "symfony/error-handler",
             "version": "v5.4.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/error-handler.git",
-                "reference": "e0c0dd0f9d4120a20158fc9aec2367d07d38bc56"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/symfony/error-handler/v5.4.2/symfony-error-handler-v5.4.2.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/symfony/error-handler/v5.4.2/symfony-error-handler-v5.4.2.zip",
                 "reference": "e0c0dd0f9d4120a20158fc9aec2367d07d38bc56",
                 "shasum": ""
             },
@@ -2997,56 +2520,39 @@
             ],
             "description": "Provides tools to manage errors and ease debugging PHP code",
             "homepage": "https://symfony.com",
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2021-12-19T20:02:00+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v6.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "7093f25359e2750bfe86842c80c4e4a6a852d05c"
-            },
+            "version": "v5.4.0",
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/symfony/event-dispatcher/v6.0.2/symfony-event-dispatcher-v6.0.2.zip",
-                "reference": "7093f25359e2750bfe86842c80c4e4a6a852d05c",
+                "url": "https://mirrors.tencent.com/repository/composer/symfony/event-dispatcher/v5.4.0/symfony-event-dispatcher-v5.4.0.zip",
+                "reference": "27d39ae126352b9fa3be5e196ccf4617897be3eb",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.0.2",
-                "symfony/event-dispatcher-contracts": "^2|^3"
+                "php": ">=7.2.5",
+                "symfony/deprecation-contracts": "^2.1|^3",
+                "symfony/event-dispatcher-contracts": "^2|^3",
+                "symfony/polyfill-php80": "^1.16"
             },
             "conflict": {
-                "symfony/dependency-injection": "<5.4"
+                "symfony/dependency-injection": "<4.4"
             },
             "provide": {
                 "psr/event-dispatcher-implementation": "1.0",
-                "symfony/event-dispatcher-implementation": "2.0|3.0"
+                "symfony/event-dispatcher-implementation": "2.0"
             },
             "require-dev": {
                 "psr/log": "^1|^2|^3",
-                "symfony/config": "^5.4|^6.0",
-                "symfony/dependency-injection": "^5.4|^6.0",
-                "symfony/error-handler": "^5.4|^6.0",
-                "symfony/expression-language": "^5.4|^6.0",
-                "symfony/http-foundation": "^5.4|^6.0",
+                "symfony/config": "^4.4|^5.0|^6.0",
+                "symfony/dependency-injection": "^4.4|^5.0|^6.0",
+                "symfony/error-handler": "^4.4|^5.0|^6.0",
+                "symfony/expression-language": "^4.4|^5.0|^6.0",
+                "symfony/http-foundation": "^4.4|^5.0|^6.0",
                 "symfony/service-contracts": "^1.1|^2|^3",
-                "symfony/stopwatch": "^5.4|^6.0"
+                "symfony/stopwatch": "^4.4|^5.0|^6.0"
             },
             "suggest": {
                 "symfony/dependency-injection": "",
@@ -3076,38 +2582,19 @@
             ],
             "description": "Provides tools that allow your application components to communicate with each other by dispatching events and listening to them",
             "homepage": "https://symfony.com",
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2021-12-21T10:43:13+00:00"
+            "time": "2021-11-23T10:19:22+00:00"
         },
         {
             "name": "symfony/event-dispatcher-contracts",
-            "version": "v3.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/event-dispatcher-contracts.git",
-                "reference": "aa5422287b75594b90ee9cd807caf8f0df491385"
-            },
+            "version": "v2.5.0",
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/symfony/event-dispatcher-contracts/v3.0.0/symfony-event-dispatcher-contracts-v3.0.0.zip",
-                "reference": "aa5422287b75594b90ee9cd807caf8f0df491385",
+                "url": "https://mirrors.tencent.com/repository/composer/symfony/event-dispatcher-contracts/v2.5.0/symfony-event-dispatcher-contracts-v2.5.0.zip",
+                "reference": "66bea3b09be61613cd3b4043a65a8ec48cfa6d2a",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.0.2",
+                "php": ">=7.2.5",
                 "psr/event-dispatcher": "^1"
             },
             "suggest": {
@@ -3116,7 +2603,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "3.0-dev"
+                    "dev-main": "2.5-dev"
                 },
                 "thanks": {
                     "name": "symfony/contracts",
@@ -3151,33 +2638,14 @@
                 "interoperability",
                 "standards"
             ],
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2021-07-15T12:33:35+00:00"
+            "time": "2021-07-12T14:48:14+00:00"
         },
         {
             "name": "symfony/finder",
             "version": "v5.4.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/finder.git",
-                "reference": "e77046c252be48c48a40816187ed527703c8f76c"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/symfony/finder/v5.4.2/symfony-finder-v5.4.2.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/symfony/finder/v5.4.2/symfony-finder-v5.4.2.zip",
                 "reference": "e77046c252be48c48a40816187ed527703c8f76c",
                 "shasum": ""
             },
@@ -3210,33 +2678,14 @@
             ],
             "description": "Finds files and directories via an intuitive fluent interface",
             "homepage": "https://symfony.com",
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2021-12-15T11:06:13+00:00"
         },
         {
             "name": "symfony/http-foundation",
             "version": "v5.4.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "ce952af52877eaf3eab5d0c08cc0ea865ed37313"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/symfony/http-foundation/v5.4.2/symfony-http-foundation-v5.4.2.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/symfony/http-foundation/v5.4.2/symfony-http-foundation-v5.4.2.zip",
                 "reference": "ce952af52877eaf3eab5d0c08cc0ea865ed37313",
                 "shasum": ""
             },
@@ -3279,33 +2728,14 @@
             ],
             "description": "Defines an object-oriented layer for the HTTP specification",
             "homepage": "https://symfony.com",
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2021-12-28T17:15:56+00:00"
         },
         {
             "name": "symfony/http-kernel",
             "version": "v5.4.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "35b7e9868953e0d1df84320bb063543369e43ef5"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/symfony/http-kernel/v5.4.2/symfony-http-kernel-v5.4.2.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/symfony/http-kernel/v5.4.2/symfony-http-kernel-v5.4.2.zip",
                 "reference": "35b7e9868953e0d1df84320bb063543369e43ef5",
                 "shasum": ""
             },
@@ -3387,33 +2817,14 @@
             ],
             "description": "Provides a structured process for converting a Request into a Response",
             "homepage": "https://symfony.com",
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2021-12-29T13:20:26+00:00"
         },
         {
             "name": "symfony/mime",
             "version": "v5.4.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/mime.git",
-                "reference": "1bfd938cf9562822c05c4d00e8f92134d3c8e42d"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/symfony/mime/v5.4.2/symfony-mime-v5.4.2.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/symfony/mime/v5.4.2/symfony-mime-v5.4.2.zip",
                 "reference": "1bfd938cf9562822c05c4d00e8f92134d3c8e42d",
                 "shasum": ""
             },
@@ -3466,33 +2877,14 @@
                 "mime",
                 "mime-type"
             ],
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2021-12-28T17:15:56+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
             "version": "v1.24.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "30885182c981ab175d4d034db0f6f469898070ab"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/symfony/polyfill-ctype/v1.24.0/symfony-polyfill-ctype-v1.24.0.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/symfony/polyfill-ctype/v1.24.0/symfony-polyfill-ctype-v1.24.0.zip",
                 "reference": "30885182c981ab175d4d034db0f6f469898070ab",
                 "shasum": ""
             },
@@ -3544,33 +2936,14 @@
                 "polyfill",
                 "portable"
             ],
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2021-10-20T20:35:02+00:00"
         },
         {
             "name": "symfony/polyfill-iconv",
             "version": "v1.24.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-iconv.git",
-                "reference": "f1aed619e28cb077fc83fac8c4c0383578356e40"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/symfony/polyfill-iconv/v1.24.0/symfony-polyfill-iconv-v1.24.0.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/symfony/polyfill-iconv/v1.24.0/symfony-polyfill-iconv-v1.24.0.zip",
                 "reference": "f1aed619e28cb077fc83fac8c4c0383578356e40",
                 "shasum": ""
             },
@@ -3623,33 +2996,14 @@
                 "portable",
                 "shim"
             ],
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2022-01-04T09:04:05+00:00"
         },
         {
             "name": "symfony/polyfill-intl-grapheme",
             "version": "v1.24.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-intl-grapheme.git",
-                "reference": "81b86b50cf841a64252b439e738e97f4a34e2783"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/symfony/polyfill-intl-grapheme/v1.24.0/symfony-polyfill-intl-grapheme-v1.24.0.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/symfony/polyfill-intl-grapheme/v1.24.0/symfony-polyfill-intl-grapheme-v1.24.0.zip",
                 "reference": "81b86b50cf841a64252b439e738e97f4a34e2783",
                 "shasum": ""
             },
@@ -3700,33 +3054,14 @@
                 "portable",
                 "shim"
             ],
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2021-11-23T21:10:46+00:00"
         },
         {
             "name": "symfony/polyfill-intl-idn",
             "version": "v1.24.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-intl-idn.git",
-                "reference": "749045c69efb97c70d25d7463abba812e91f3a44"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/symfony/polyfill-intl-idn/v1.24.0/symfony-polyfill-intl-idn-v1.24.0.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/symfony/polyfill-intl-idn/v1.24.0/symfony-polyfill-intl-idn-v1.24.0.zip",
                 "reference": "749045c69efb97c70d25d7463abba812e91f3a44",
                 "shasum": ""
             },
@@ -3783,33 +3118,14 @@
                 "portable",
                 "shim"
             ],
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2021-09-14T14:02:44+00:00"
         },
         {
             "name": "symfony/polyfill-intl-normalizer",
             "version": "v1.24.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
-                "reference": "8590a5f561694770bdcd3f9b5c69dde6945028e8"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/symfony/polyfill-intl-normalizer/v1.24.0/symfony-polyfill-intl-normalizer-v1.24.0.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/symfony/polyfill-intl-normalizer/v1.24.0/symfony-polyfill-intl-normalizer-v1.24.0.zip",
                 "reference": "8590a5f561694770bdcd3f9b5c69dde6945028e8",
                 "shasum": ""
             },
@@ -3863,33 +3179,14 @@
                 "portable",
                 "shim"
             ],
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2021-02-19T12:13:01+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
             "version": "v1.24.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "0abb51d2f102e00a4eefcf46ba7fec406d245825"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/symfony/polyfill-mbstring/v1.24.0/symfony-polyfill-mbstring-v1.24.0.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/symfony/polyfill-mbstring/v1.24.0/symfony-polyfill-mbstring-v1.24.0.zip",
                 "reference": "0abb51d2f102e00a4eefcf46ba7fec406d245825",
                 "shasum": ""
             },
@@ -3942,33 +3239,14 @@
                 "portable",
                 "shim"
             ],
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2021-11-30T18:21:41+00:00"
         },
         {
             "name": "symfony/polyfill-php72",
             "version": "v1.24.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-php72.git",
-                "reference": "9a142215a36a3888e30d0a9eeea9766764e96976"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/symfony/polyfill-php72/v1.24.0/symfony-polyfill-php72-v1.24.0.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/symfony/polyfill-php72/v1.24.0/symfony-polyfill-php72-v1.24.0.zip",
                 "reference": "9a142215a36a3888e30d0a9eeea9766764e96976",
                 "shasum": ""
             },
@@ -4014,33 +3292,14 @@
                 "portable",
                 "shim"
             ],
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2021-05-27T09:17:38+00:00"
         },
         {
             "name": "symfony/polyfill-php73",
             "version": "v1.24.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-php73.git",
-                "reference": "cc5db0e22b3cb4111010e48785a97f670b350ca5"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/symfony/polyfill-php73/v1.24.0/symfony-polyfill-php73-v1.24.0.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/symfony/polyfill-php73/v1.24.0/symfony-polyfill-php73-v1.24.0.zip",
                 "reference": "cc5db0e22b3cb4111010e48785a97f670b350ca5",
                 "shasum": ""
             },
@@ -4089,33 +3348,14 @@
                 "portable",
                 "shim"
             ],
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2021-06-05T21:20:04+00:00"
         },
         {
             "name": "symfony/polyfill-php80",
             "version": "v1.24.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-php80.git",
-                "reference": "57b712b08eddb97c762a8caa32c84e037892d2e9"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/symfony/polyfill-php80/v1.24.0/symfony-polyfill-php80-v1.24.0.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/symfony/polyfill-php80/v1.24.0/symfony-polyfill-php80-v1.24.0.zip",
                 "reference": "57b712b08eddb97c762a8caa32c84e037892d2e9",
                 "shasum": ""
             },
@@ -4168,33 +3408,14 @@
                 "portable",
                 "shim"
             ],
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2021-09-13T13:58:33+00:00"
         },
         {
             "name": "symfony/polyfill-php81",
             "version": "v1.24.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-php81.git",
-                "reference": "5de4ba2d41b15f9bd0e19b2ab9674135813ec98f"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/symfony/polyfill-php81/v1.24.0/symfony-polyfill-php81-v1.24.0.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/symfony/polyfill-php81/v1.24.0/symfony-polyfill-php81-v1.24.0.zip",
                 "reference": "5de4ba2d41b15f9bd0e19b2ab9674135813ec98f",
                 "shasum": ""
             },
@@ -4243,33 +3464,14 @@
                 "portable",
                 "shim"
             ],
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2021-09-13T13:58:11+00:00"
         },
         {
             "name": "symfony/process",
             "version": "v5.4.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/process.git",
-                "reference": "2b3ba8722c4aaf3e88011be5e7f48710088fb5e4"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/symfony/process/v5.4.2/symfony-process-v5.4.2.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/symfony/process/v5.4.2/symfony-process-v5.4.2.zip",
                 "reference": "2b3ba8722c4aaf3e88011be5e7f48710088fb5e4",
                 "shasum": ""
             },
@@ -4301,33 +3503,14 @@
             ],
             "description": "Executes commands in sub-processes",
             "homepage": "https://symfony.com",
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2021-12-27T21:01:00+00:00"
         },
         {
             "name": "symfony/routing",
             "version": "v5.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/routing.git",
-                "reference": "9eeae93c32ca86746e5d38f3679e9569981038b1"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/symfony/routing/v5.4.0/symfony-routing-v5.4.0.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/symfony/routing/v5.4.0/symfony-routing-v5.4.0.zip",
                 "reference": "9eeae93c32ca86746e5d38f3679e9569981038b1",
                 "shasum": ""
             },
@@ -4387,39 +3570,21 @@
                 "uri",
                 "url"
             ],
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2021-11-23T10:19:22+00:00"
         },
         {
             "name": "symfony/service-contracts",
-            "version": "v2.4.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/service-contracts.git",
-                "reference": "d664541b99d6fb0247ec5ff32e87238582236204"
-            },
+            "version": "v2.5.0",
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/symfony/service-contracts/v2.4.1/symfony-service-contracts-v2.4.1.zip",
-                "reference": "d664541b99d6fb0247ec5ff32e87238582236204",
+                "url": "https://mirrors.tencent.com/repository/composer/symfony/service-contracts/v2.5.0/symfony-service-contracts-v2.5.0.zip",
+                "reference": "1ab11b933cd6bc5464b08e81e2c5b07dec58b0fc",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2.5",
-                "psr/container": "^1.1"
+                "psr/container": "^1.1",
+                "symfony/deprecation-contracts": "^2.1"
             },
             "conflict": {
                 "ext-psr": "<1.1|>=2"
@@ -4430,7 +3595,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "2.4-dev"
+                    "dev-main": "2.5-dev"
                 },
                 "thanks": {
                     "name": "symfony/contracts",
@@ -4465,51 +3630,33 @@
                 "interoperability",
                 "standards"
             ],
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2021-11-04T16:37:19+00:00"
+            "time": "2021-11-04T16:48:04+00:00"
         },
         {
             "name": "symfony/string",
-            "version": "v6.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/string.git",
-                "reference": "bae261d0c3ac38a1f802b4dfed42094296100631"
-            },
+            "version": "v5.4.2",
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/symfony/string/v6.0.2/symfony-string-v6.0.2.zip",
-                "reference": "bae261d0c3ac38a1f802b4dfed42094296100631",
+                "url": "https://mirrors.tencent.com/repository/composer/symfony/string/v5.4.2/symfony-string-v5.4.2.zip",
+                "reference": "e6a5d5ecf6589c5247d18e0e74e30b11dfd51a3d",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.0.2",
+                "php": ">=7.2.5",
                 "symfony/polyfill-ctype": "~1.8",
                 "symfony/polyfill-intl-grapheme": "~1.0",
                 "symfony/polyfill-intl-normalizer": "~1.0",
-                "symfony/polyfill-mbstring": "~1.0"
+                "symfony/polyfill-mbstring": "~1.0",
+                "symfony/polyfill-php80": "~1.15"
             },
             "conflict": {
-                "symfony/translation-contracts": "<2.0"
+                "symfony/translation-contracts": ">=3.0"
             },
             "require-dev": {
-                "symfony/error-handler": "^5.4|^6.0",
-                "symfony/http-client": "^5.4|^6.0",
-                "symfony/translation-contracts": "^2.0|^3.0",
-                "symfony/var-exporter": "^5.4|^6.0"
+                "symfony/error-handler": "^4.4|^5.0|^6.0",
+                "symfony/http-client": "^4.4|^5.0|^6.0",
+                "symfony/translation-contracts": "^1.1|^2",
+                "symfony/var-exporter": "^4.4|^5.0|^6.0"
             },
             "type": "library",
             "autoload": {
@@ -4546,64 +3693,47 @@
                 "utf-8",
                 "utf8"
             ],
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2021-12-16T22:13:01+00:00"
+            "time": "2021-12-16T21:52:00+00:00"
         },
         {
             "name": "symfony/translation",
-            "version": "v6.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/translation.git",
-                "reference": "a16c33f93e2fd62d259222aebf792158e9a28a77"
-            },
+            "version": "v5.4.2",
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/symfony/translation/v6.0.2/symfony-translation-v6.0.2.zip",
-                "reference": "a16c33f93e2fd62d259222aebf792158e9a28a77",
+                "url": "https://mirrors.tencent.com/repository/composer/symfony/translation/v5.4.2/symfony-translation-v5.4.2.zip",
+                "reference": "ff8bb2107b6a549dc3c5dd9c498dcc82c9c098ca",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.0.2",
+                "php": ">=7.2.5",
+                "symfony/deprecation-contracts": "^2.1|^3",
                 "symfony/polyfill-mbstring": "~1.0",
-                "symfony/translation-contracts": "^2.3|^3.0"
+                "symfony/polyfill-php80": "^1.16",
+                "symfony/translation-contracts": "^2.3"
             },
             "conflict": {
-                "symfony/config": "<5.4",
-                "symfony/console": "<5.4",
-                "symfony/dependency-injection": "<5.4",
-                "symfony/http-kernel": "<5.4",
-                "symfony/twig-bundle": "<5.4",
-                "symfony/yaml": "<5.4"
+                "symfony/config": "<4.4",
+                "symfony/console": "<5.3",
+                "symfony/dependency-injection": "<5.0",
+                "symfony/http-kernel": "<5.0",
+                "symfony/twig-bundle": "<5.0",
+                "symfony/yaml": "<4.4"
             },
             "provide": {
-                "symfony/translation-implementation": "2.3|3.0"
+                "symfony/translation-implementation": "2.3"
             },
             "require-dev": {
                 "psr/log": "^1|^2|^3",
-                "symfony/config": "^5.4|^6.0",
+                "symfony/config": "^4.4|^5.0|^6.0",
                 "symfony/console": "^5.4|^6.0",
-                "symfony/dependency-injection": "^5.4|^6.0",
-                "symfony/finder": "^5.4|^6.0",
+                "symfony/dependency-injection": "^5.0|^6.0",
+                "symfony/finder": "^4.4|^5.0|^6.0",
                 "symfony/http-client-contracts": "^1.1|^2.0|^3.0",
-                "symfony/http-kernel": "^5.4|^6.0",
-                "symfony/intl": "^5.4|^6.0",
+                "symfony/http-kernel": "^5.0|^6.0",
+                "symfony/intl": "^4.4|^5.0|^6.0",
                 "symfony/polyfill-intl-icu": "^1.21",
                 "symfony/service-contracts": "^1.1.2|^2|^3",
-                "symfony/yaml": "^5.4|^6.0"
+                "symfony/yaml": "^4.4|^5.0|^6.0"
             },
             "suggest": {
                 "psr/log-implementation": "To use logging capability in translator",
@@ -4637,38 +3767,19 @@
             ],
             "description": "Provides tools to internationalize your application",
             "homepage": "https://symfony.com",
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2021-12-25T20:10:03+00:00"
+            "time": "2021-12-25T19:45:36+00:00"
         },
         {
             "name": "symfony/translation-contracts",
-            "version": "v3.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/translation-contracts.git",
-                "reference": "1b6ea5a7442af5a12dba3dbd6d71034b5b234e77"
-            },
+            "version": "v2.5.0",
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/symfony/translation-contracts/v3.0.0/symfony-translation-contracts-v3.0.0.zip",
-                "reference": "1b6ea5a7442af5a12dba3dbd6d71034b5b234e77",
+                "url": "https://mirrors.tencent.com/repository/composer/symfony/translation-contracts/v2.5.0/symfony-translation-contracts-v2.5.0.zip",
+                "reference": "d28150f0f44ce854e942b671fc2620a98aae1b1e",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.0.2"
+                "php": ">=7.2.5"
             },
             "suggest": {
                 "symfony/translation-implementation": ""
@@ -4676,7 +3787,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "3.0-dev"
+                    "dev-main": "2.5-dev"
                 },
                 "thanks": {
                     "name": "symfony/contracts",
@@ -4711,33 +3822,14 @@
                 "interoperability",
                 "standards"
             ],
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2021-09-07T12:43:40+00:00"
+            "time": "2021-08-17T14:20:01+00:00"
         },
         {
             "name": "symfony/var-dumper",
             "version": "v5.4.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "1b56c32c3679002b3a42384a580e16e2600f41c1"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/symfony/var-dumper/v5.4.2/symfony-var-dumper-v5.4.2.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/symfony/var-dumper/v5.4.2/symfony-var-dumper-v5.4.2.zip",
                 "reference": "1b56c32c3679002b3a42384a580e16e2600f41c1",
                 "shasum": ""
             },
@@ -4796,33 +3888,14 @@
                 "debug",
                 "dump"
             ],
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2021-12-29T10:10:35+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
             "version": "2.2.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/tijsverkoyen/CssToInlineStyles.git",
-                "reference": "da444caae6aca7a19c0c140f68c6182e337d5b1c"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/tijsverkoyen/css-to-inline-styles/2.2.4/tijsverkoyen-css-to-inline-styles-2.2.4.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/tijsverkoyen/css-to-inline-styles/2.2.4/tijsverkoyen-css-to-inline-styles-2.2.4.zip",
                 "reference": "da444caae6aca7a19c0c140f68c6182e337d5b1c",
                 "shasum": ""
             },
@@ -4863,14 +3936,9 @@
         {
             "name": "vlucas/phpdotenv",
             "version": "v5.4.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "264dce589e7ce37a7ba99cb901eed8249fbec92f"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/vlucas/phpdotenv/v5.4.1/vlucas-phpdotenv-v5.4.1.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/vlucas/phpdotenv/v5.4.1/vlucas-phpdotenv-v5.4.1.zip",
                 "reference": "264dce589e7ce37a7ba99cb901eed8249fbec92f",
                 "shasum": ""
             },
@@ -4923,29 +3991,14 @@
                 "env",
                 "environment"
             ],
-            "funding": [
-                {
-                    "url": "https://github.com/GrahamCampbell",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/vlucas/phpdotenv",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2021-12-12T23:22:04+00:00"
         },
         {
             "name": "voku/portable-ascii",
             "version": "1.5.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/voku/portable-ascii.git",
-                "reference": "80953678b19901e5165c56752d087fc11526017c"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/voku/portable-ascii/1.5.6/voku-portable-ascii-1.5.6.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/voku/portable-ascii/1.5.6/voku-portable-ascii-1.5.6.zip",
                 "reference": "80953678b19901e5165c56752d087fc11526017c",
                 "shasum": ""
             },
@@ -4980,41 +4033,14 @@
                 "clean",
                 "php"
             ],
-            "funding": [
-                {
-                    "url": "https://www.paypal.me/moelleken",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/voku",
-                    "type": "github"
-                },
-                {
-                    "url": "https://opencollective.com/portable-ascii",
-                    "type": "open_collective"
-                },
-                {
-                    "url": "https://www.patreon.com/voku",
-                    "type": "patreon"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/voku/portable-ascii",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2020-11-12T00:07:28+00:00"
         },
         {
             "name": "webmozart/assert",
             "version": "1.10.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/webmozarts/assert.git",
-                "reference": "6964c76c7804814a842473e0c8fd15bab0f18e25"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/webmozart/assert/1.10.0/webmozart-assert-1.10.0.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/webmozart/assert/1.10.0/webmozart-assert-1.10.0.zip",
                 "reference": "6964c76c7804814a842473e0c8fd15bab0f18e25",
                 "shasum": ""
             },
@@ -5062,14 +4088,9 @@
         {
             "name": "doctrine/instantiator",
             "version": "1.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/doctrine/instantiator.git",
-                "reference": "d56bf6102915de5702778fe20f2de3b2fe570b5b"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/doctrine/instantiator/1.4.0/doctrine-instantiator-1.4.0.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/doctrine/instantiator/1.4.0/doctrine-instantiator-1.4.0.zip",
                 "reference": "d56bf6102915de5702778fe20f2de3b2fe570b5b",
                 "shasum": ""
             },
@@ -5107,33 +4128,14 @@
                 "constructor",
                 "instantiate"
             ],
-            "funding": [
-                {
-                    "url": "https://www.doctrine-project.org/sponsorship.html",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://www.patreon.com/phpdoctrine",
-                    "type": "patreon"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Finstantiator",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2020-11-10T18:47:58+00:00"
         },
         {
             "name": "facade/flare-client-php",
             "version": "1.9.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/facade/flare-client-php.git",
-                "reference": "b2adf1512755637d0cef4f7d1b54301325ac78ed"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/facade/flare-client-php/1.9.1/facade-flare-client-php-1.9.1.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/facade/flare-client-php/1.9.1/facade-flare-client-php-1.9.1.zip",
                 "reference": "b2adf1512755637d0cef4f7d1b54301325ac78ed",
                 "shasum": ""
             },
@@ -5175,25 +4177,14 @@
                 "flare",
                 "reporting"
             ],
-            "funding": [
-                {
-                    "url": "https://github.com/spatie",
-                    "type": "github"
-                }
-            ],
             "time": "2021-09-13T12:16:46+00:00"
         },
         {
             "name": "facade/ignition",
             "version": "2.17.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/facade/ignition.git",
-                "reference": "95c80bd35ee6858e9e1439b2f6a698295eeb2070"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/facade/ignition/2.17.4/facade-ignition-2.17.4.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/facade/ignition/2.17.4/facade-ignition-2.17.4.zip",
                 "reference": "95c80bd35ee6858e9e1439b2f6a698295eeb2070",
                 "shasum": ""
             },
@@ -5257,14 +4248,9 @@
         {
             "name": "facade/ignition-contracts",
             "version": "1.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/facade/ignition-contracts.git",
-                "reference": "3c921a1cdba35b68a7f0ccffc6dffc1995b18267"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/facade/ignition-contracts/1.0.2/facade-ignition-contracts-1.0.2.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/facade/ignition-contracts/1.0.2/facade-ignition-contracts-1.0.2.zip",
                 "reference": "3c921a1cdba35b68a7f0ccffc6dffc1995b18267",
                 "shasum": ""
             },
@@ -5305,14 +4291,9 @@
         {
             "name": "fakerphp/faker",
             "version": "v1.17.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/FakerPHP/Faker.git",
-                "reference": "b85e9d44eae8c52cca7aa0939483611f7232b669"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/fakerphp/faker/v1.17.0/fakerphp-faker-v1.17.0.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/fakerphp/faker/v1.17.0/fakerphp-faker-v1.17.0.zip",
                 "reference": "b85e9d44eae8c52cca7aa0939483611f7232b669",
                 "shasum": ""
             },
@@ -5365,14 +4346,9 @@
         {
             "name": "filp/whoops",
             "version": "2.14.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/filp/whoops.git",
-                "reference": "a63e5e8f26ebbebf8ed3c5c691637325512eb0dc"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/filp/whoops/2.14.5/filp-whoops-2.14.5.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/filp/whoops/2.14.5/filp-whoops-2.14.5.zip",
                 "reference": "a63e5e8f26ebbebf8ed3c5c691637325512eb0dc",
                 "shasum": ""
             },
@@ -5420,25 +4396,14 @@
                 "throwable",
                 "whoops"
             ],
-            "funding": [
-                {
-                    "url": "https://github.com/denis-sokolov",
-                    "type": "github"
-                }
-            ],
             "time": "2022-01-07T12:00:00+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
             "version": "v2.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/hamcrest/hamcrest-php.git",
-                "reference": "8c3d0a3f6af734494ad8f6fbbee0ba92422859f3"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/hamcrest/hamcrest-php/v2.0.1/hamcrest-hamcrest-php-v2.0.1.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/hamcrest/hamcrest-php/v2.0.1/hamcrest-hamcrest-php-v2.0.1.zip",
                 "reference": "8c3d0a3f6af734494ad8f6fbbee0ba92422859f3",
                 "shasum": ""
             },
@@ -5477,14 +4442,9 @@
         {
             "name": "laravel/sail",
             "version": "v1.13.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/sail.git",
-                "reference": "a14125e71779c99e27979431a66ea2793aa6ae50"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/laravel/sail/v1.13.0/laravel-sail-v1.13.0.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/laravel/sail/v1.13.0/laravel-sail-v1.13.0.zip",
                 "reference": "a14125e71779c99e27979431a66ea2793aa6ae50",
                 "shasum": ""
             },
@@ -5532,14 +4492,9 @@
         {
             "name": "mockery/mockery",
             "version": "1.4.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mockery/mockery.git",
-                "reference": "e01123a0e847d52d186c5eb4b9bf58b0c6d00346"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/mockery/mockery/1.4.4/mockery-mockery-1.4.4.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/mockery/mockery/1.4.4/mockery-mockery-1.4.4.zip",
                 "reference": "e01123a0e847d52d186c5eb4b9bf58b0c6d00346",
                 "shasum": ""
             },
@@ -5599,22 +4554,14 @@
         {
             "name": "myclabs/deep-copy",
             "version": "1.10.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/myclabs/DeepCopy.git",
-                "reference": "776f831124e9c62e1a2c601ecc52e776d8bb7220"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/myclabs/deep-copy/1.10.2/myclabs-deep-copy-1.10.2.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/myclabs/deep-copy/1.10.2/myclabs-deep-copy-1.10.2.zip",
                 "reference": "776f831124e9c62e1a2c601ecc52e776d8bb7220",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1 || ^8.0"
-            },
-            "replace": {
-                "myclabs/deep-copy": "self.version"
             },
             "require-dev": {
                 "doctrine/collections": "^1.0",
@@ -5641,25 +4588,14 @@
                 "object",
                 "object graph"
             ],
-            "funding": [
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/myclabs/deep-copy",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2020-11-13T09:40:50+00:00"
         },
         {
             "name": "nunomaduro/collision",
             "version": "v5.11.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nunomaduro/collision.git",
-                "reference": "8b610eef8582ccdc05d8f2ab23305e2d37049461"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/nunomaduro/collision/v5.11.0/nunomaduro-collision-v5.11.0.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/nunomaduro/collision/v5.11.0/nunomaduro-collision-v5.11.0.zip",
                 "reference": "8b610eef8582ccdc05d8f2ab23305e2d37049461",
                 "shasum": ""
             },
@@ -5715,33 +4651,14 @@
                 "php",
                 "symfony"
             ],
-            "funding": [
-                {
-                    "url": "https://www.paypal.com/paypalme/enunomaduro",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/nunomaduro",
-                    "type": "github"
-                },
-                {
-                    "url": "https://www.patreon.com/nunomaduro",
-                    "type": "patreon"
-                }
-            ],
             "time": "2022-01-10T16:22:52+00:00"
         },
         {
             "name": "phar-io/manifest",
             "version": "2.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phar-io/manifest.git",
-                "reference": "97803eca37d319dfa7826cc2437fc020857acb53"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/phar-io/manifest/2.0.3/phar-io-manifest-2.0.3.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/phar-io/manifest/2.0.3/phar-io-manifest-2.0.3.zip",
                 "reference": "97803eca37d319dfa7826cc2437fc020857acb53",
                 "shasum": ""
             },
@@ -5789,14 +4706,9 @@
         {
             "name": "phar-io/version",
             "version": "3.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phar-io/version.git",
-                "reference": "bae7c545bef187884426f042434e561ab1ddb182"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/phar-io/version/3.1.0/phar-io-version-3.1.0.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/phar-io/version/3.1.0/phar-io-version-3.1.0.zip",
                 "reference": "bae7c545bef187884426f042434e561ab1ddb182",
                 "shasum": ""
             },
@@ -5835,14 +4747,9 @@
         {
             "name": "phpdocumentor/reflection-common",
             "version": "2.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phpDocumentor/ReflectionCommon.git",
-                "reference": "1d01c49d4ed62f25aa84a747ad35d5a16924662b"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/phpdocumentor/reflection-common/2.2.0/phpdocumentor-reflection-common-2.2.0.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/phpdocumentor/reflection-common/2.2.0/phpdocumentor-reflection-common-2.2.0.zip",
                 "reference": "1d01c49d4ed62f25aa84a747ad35d5a16924662b",
                 "shasum": ""
             },
@@ -5883,14 +4790,9 @@
         {
             "name": "phpdocumentor/reflection-docblock",
             "version": "5.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
-                "reference": "622548b623e81ca6d78b721c5e029f4ce664f170"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/phpdocumentor/reflection-docblock/5.3.0/phpdocumentor-reflection-docblock-5.3.0.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/phpdocumentor/reflection-docblock/5.3.0/phpdocumentor-reflection-docblock-5.3.0.zip",
                 "reference": "622548b623e81ca6d78b721c5e029f4ce664f170",
                 "shasum": ""
             },
@@ -5935,14 +4837,9 @@
         {
             "name": "phpdocumentor/type-resolver",
             "version": "1.6.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phpDocumentor/TypeResolver.git",
-                "reference": "93ebd0014cab80c4ea9f5e297ea48672f1b87706"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/phpdocumentor/type-resolver/1.6.0/phpdocumentor-type-resolver-1.6.0.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/phpdocumentor/type-resolver/1.6.0/phpdocumentor-type-resolver-1.6.0.zip",
                 "reference": "93ebd0014cab80c4ea9f5e297ea48672f1b87706",
                 "shasum": ""
             },
@@ -5980,14 +4877,9 @@
         {
             "name": "phpspec/prophecy",
             "version": "v1.15.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phpspec/prophecy.git",
-                "reference": "bbcd7380b0ebf3961ee21409db7b38bc31d69a13"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/phpspec/prophecy/v1.15.0/phpspec-prophecy-v1.15.0.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/phpspec/prophecy/v1.15.0/phpspec-prophecy-v1.15.0.zip",
                 "reference": "bbcd7380b0ebf3961ee21409db7b38bc31d69a13",
                 "shasum": ""
             },
@@ -6042,14 +4934,9 @@
         {
             "name": "phpunit/php-code-coverage",
             "version": "9.2.10",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "d5850aaf931743067f4bfc1ae4cbd06468400687"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/phpunit/php-code-coverage/9.2.10/phpunit-php-code-coverage-9.2.10.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/phpunit/php-code-coverage/9.2.10/phpunit-php-code-coverage-9.2.10.zip",
                 "reference": "d5850aaf931743067f4bfc1ae4cbd06468400687",
                 "shasum": ""
             },
@@ -6103,25 +4990,14 @@
                 "testing",
                 "xunit"
             ],
-            "funding": [
-                {
-                    "url": "https://github.com/sebastianbergmann",
-                    "type": "github"
-                }
-            ],
             "time": "2021-12-05T09:12:13+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
             "version": "3.0.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/php-file-iterator.git",
-                "reference": "cf1c2e7c203ac650e352f4cc675a7021e7d1b3cf"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/phpunit/php-file-iterator/3.0.6/phpunit-php-file-iterator-3.0.6.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/phpunit/php-file-iterator/3.0.6/phpunit-php-file-iterator-3.0.6.zip",
                 "reference": "cf1c2e7c203ac650e352f4cc675a7021e7d1b3cf",
                 "shasum": ""
             },
@@ -6158,25 +5034,14 @@
                 "filesystem",
                 "iterator"
             ],
-            "funding": [
-                {
-                    "url": "https://github.com/sebastianbergmann",
-                    "type": "github"
-                }
-            ],
             "time": "2021-12-02T12:48:52+00:00"
         },
         {
             "name": "phpunit/php-invoker",
             "version": "3.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/php-invoker.git",
-                "reference": "5a10147d0aaf65b58940a0b72f71c9ac0423cc67"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/phpunit/php-invoker/3.1.1/phpunit-php-invoker-3.1.1.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/phpunit/php-invoker/3.1.1/phpunit-php-invoker-3.1.1.zip",
                 "reference": "5a10147d0aaf65b58940a0b72f71c9ac0423cc67",
                 "shasum": ""
             },
@@ -6216,25 +5081,14 @@
             "keywords": [
                 "process"
             ],
-            "funding": [
-                {
-                    "url": "https://github.com/sebastianbergmann",
-                    "type": "github"
-                }
-            ],
             "time": "2020-09-28T05:58:55+00:00"
         },
         {
             "name": "phpunit/php-text-template",
             "version": "2.0.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/php-text-template.git",
-                "reference": "5da5f67fc95621df9ff4c4e5a84d6a8a2acf7c28"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/phpunit/php-text-template/2.0.4/phpunit-php-text-template-2.0.4.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/phpunit/php-text-template/2.0.4/phpunit-php-text-template-2.0.4.zip",
                 "reference": "5da5f67fc95621df9ff4c4e5a84d6a8a2acf7c28",
                 "shasum": ""
             },
@@ -6270,25 +5124,14 @@
             "keywords": [
                 "template"
             ],
-            "funding": [
-                {
-                    "url": "https://github.com/sebastianbergmann",
-                    "type": "github"
-                }
-            ],
             "time": "2020-10-26T05:33:50+00:00"
         },
         {
             "name": "phpunit/php-timer",
             "version": "5.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/php-timer.git",
-                "reference": "5a63ce20ed1b5bf577850e2c4e87f4aa902afbd2"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/phpunit/php-timer/5.0.3/phpunit-php-timer-5.0.3.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/phpunit/php-timer/5.0.3/phpunit-php-timer-5.0.3.zip",
                 "reference": "5a63ce20ed1b5bf577850e2c4e87f4aa902afbd2",
                 "shasum": ""
             },
@@ -6324,25 +5167,14 @@
             "keywords": [
                 "timer"
             ],
-            "funding": [
-                {
-                    "url": "https://github.com/sebastianbergmann",
-                    "type": "github"
-                }
-            ],
             "time": "2020-10-26T13:16:10+00:00"
         },
         {
             "name": "phpunit/phpunit",
             "version": "9.5.11",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "2406855036db1102126125537adb1406f7242fdd"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/phpunit/phpunit/9.5.11/phpunit-phpunit-9.5.11.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/phpunit/phpunit/9.5.11/phpunit-phpunit-9.5.11.zip",
                 "reference": "2406855036db1102126125537adb1406f7242fdd",
                 "shasum": ""
             },
@@ -6418,29 +5250,14 @@
                 "testing",
                 "xunit"
             ],
-            "funding": [
-                {
-                    "url": "https://phpunit.de/sponsors.html",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/sebastianbergmann",
-                    "type": "github"
-                }
-            ],
             "time": "2021-12-25T07:07:57+00:00"
         },
         {
             "name": "sebastian/cli-parser",
             "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/cli-parser.git",
-                "reference": "442e7c7e687e42adc03470c7b668bc4b2402c0b2"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/sebastian/cli-parser/1.0.1/sebastian-cli-parser-1.0.1.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/sebastian/cli-parser/1.0.1/sebastian-cli-parser-1.0.1.zip",
                 "reference": "442e7c7e687e42adc03470c7b668bc4b2402c0b2",
                 "shasum": ""
             },
@@ -6473,25 +5290,14 @@
             ],
             "description": "Library for parsing CLI options",
             "homepage": "https://github.com/sebastianbergmann/cli-parser",
-            "funding": [
-                {
-                    "url": "https://github.com/sebastianbergmann",
-                    "type": "github"
-                }
-            ],
             "time": "2020-09-28T06:08:49+00:00"
         },
         {
             "name": "sebastian/code-unit",
             "version": "1.0.8",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/code-unit.git",
-                "reference": "1fc9f64c0927627ef78ba436c9b17d967e68e120"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/sebastian/code-unit/1.0.8/sebastian-code-unit-1.0.8.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/sebastian/code-unit/1.0.8/sebastian-code-unit-1.0.8.zip",
                 "reference": "1fc9f64c0927627ef78ba436c9b17d967e68e120",
                 "shasum": ""
             },
@@ -6524,25 +5330,14 @@
             ],
             "description": "Collection of value objects that represent the PHP code units",
             "homepage": "https://github.com/sebastianbergmann/code-unit",
-            "funding": [
-                {
-                    "url": "https://github.com/sebastianbergmann",
-                    "type": "github"
-                }
-            ],
             "time": "2020-10-26T13:08:54+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
             "version": "2.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/code-unit-reverse-lookup.git",
-                "reference": "ac91f01ccec49fb77bdc6fd1e548bc70f7faa3e5"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/sebastian/code-unit-reverse-lookup/2.0.3/sebastian-code-unit-reverse-lookup-2.0.3.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/sebastian/code-unit-reverse-lookup/2.0.3/sebastian-code-unit-reverse-lookup-2.0.3.zip",
                 "reference": "ac91f01ccec49fb77bdc6fd1e548bc70f7faa3e5",
                 "shasum": ""
             },
@@ -6574,25 +5369,14 @@
             ],
             "description": "Looks up which function or method a line of code belongs to",
             "homepage": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/",
-            "funding": [
-                {
-                    "url": "https://github.com/sebastianbergmann",
-                    "type": "github"
-                }
-            ],
             "time": "2020-09-28T05:30:19+00:00"
         },
         {
             "name": "sebastian/comparator",
             "version": "4.0.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/comparator.git",
-                "reference": "55f4261989e546dc112258c7a75935a81a7ce382"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/sebastian/comparator/4.0.6/sebastian-comparator-4.0.6.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/sebastian/comparator/4.0.6/sebastian-comparator-4.0.6.zip",
                 "reference": "55f4261989e546dc112258c7a75935a81a7ce382",
                 "shasum": ""
             },
@@ -6643,25 +5427,14 @@
                 "compare",
                 "equality"
             ],
-            "funding": [
-                {
-                    "url": "https://github.com/sebastianbergmann",
-                    "type": "github"
-                }
-            ],
             "time": "2020-10-26T15:49:45+00:00"
         },
         {
             "name": "sebastian/complexity",
             "version": "2.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/complexity.git",
-                "reference": "739b35e53379900cc9ac327b2147867b8b6efd88"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/sebastian/complexity/2.0.2/sebastian-complexity-2.0.2.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/sebastian/complexity/2.0.2/sebastian-complexity-2.0.2.zip",
                 "reference": "739b35e53379900cc9ac327b2147867b8b6efd88",
                 "shasum": ""
             },
@@ -6695,25 +5468,14 @@
             ],
             "description": "Library for calculating the complexity of PHP code units",
             "homepage": "https://github.com/sebastianbergmann/complexity",
-            "funding": [
-                {
-                    "url": "https://github.com/sebastianbergmann",
-                    "type": "github"
-                }
-            ],
             "time": "2020-10-26T15:52:27+00:00"
         },
         {
             "name": "sebastian/diff",
             "version": "4.0.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/diff.git",
-                "reference": "3461e3fccc7cfdfc2720be910d3bd73c69be590d"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/sebastian/diff/4.0.4/sebastian-diff-4.0.4.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/sebastian/diff/4.0.4/sebastian-diff-4.0.4.zip",
                 "reference": "3461e3fccc7cfdfc2720be910d3bd73c69be590d",
                 "shasum": ""
             },
@@ -6756,25 +5518,14 @@
                 "unidiff",
                 "unified diff"
             ],
-            "funding": [
-                {
-                    "url": "https://github.com/sebastianbergmann",
-                    "type": "github"
-                }
-            ],
             "time": "2020-10-26T13:10:38+00:00"
         },
         {
             "name": "sebastian/environment",
             "version": "5.1.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/environment.git",
-                "reference": "388b6ced16caa751030f6a69e588299fa09200ac"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/sebastian/environment/5.1.3/sebastian-environment-5.1.3.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/sebastian/environment/5.1.3/sebastian-environment-5.1.3.zip",
                 "reference": "388b6ced16caa751030f6a69e588299fa09200ac",
                 "shasum": ""
             },
@@ -6814,25 +5565,14 @@
                 "environment",
                 "hhvm"
             ],
-            "funding": [
-                {
-                    "url": "https://github.com/sebastianbergmann",
-                    "type": "github"
-                }
-            ],
             "time": "2020-09-28T05:52:38+00:00"
         },
         {
             "name": "sebastian/exporter",
             "version": "4.0.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/exporter.git",
-                "reference": "65e8b7db476c5dd267e65eea9cab77584d3cfff9"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/sebastian/exporter/4.0.4/sebastian-exporter-4.0.4.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/sebastian/exporter/4.0.4/sebastian-exporter-4.0.4.zip",
                 "reference": "65e8b7db476c5dd267e65eea9cab77584d3cfff9",
                 "shasum": ""
             },
@@ -6886,25 +5626,14 @@
                 "export",
                 "exporter"
             ],
-            "funding": [
-                {
-                    "url": "https://github.com/sebastianbergmann",
-                    "type": "github"
-                }
-            ],
             "time": "2021-11-11T14:18:36+00:00"
         },
         {
             "name": "sebastian/global-state",
             "version": "5.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/global-state.git",
-                "reference": "23bd5951f7ff26f12d4e3242864df3e08dec4e49"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/sebastian/global-state/5.0.3/sebastian-global-state-5.0.3.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/sebastian/global-state/5.0.3/sebastian-global-state-5.0.3.zip",
                 "reference": "23bd5951f7ff26f12d4e3242864df3e08dec4e49",
                 "shasum": ""
             },
@@ -6945,25 +5674,14 @@
             "keywords": [
                 "global state"
             ],
-            "funding": [
-                {
-                    "url": "https://github.com/sebastianbergmann",
-                    "type": "github"
-                }
-            ],
             "time": "2021-06-11T13:31:12+00:00"
         },
         {
             "name": "sebastian/lines-of-code",
             "version": "1.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/lines-of-code.git",
-                "reference": "c1c2e997aa3146983ed888ad08b15470a2e22ecc"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/sebastian/lines-of-code/1.0.3/sebastian-lines-of-code-1.0.3.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/sebastian/lines-of-code/1.0.3/sebastian-lines-of-code-1.0.3.zip",
                 "reference": "c1c2e997aa3146983ed888ad08b15470a2e22ecc",
                 "shasum": ""
             },
@@ -6997,25 +5715,14 @@
             ],
             "description": "Library for counting the lines of code in PHP source code",
             "homepage": "https://github.com/sebastianbergmann/lines-of-code",
-            "funding": [
-                {
-                    "url": "https://github.com/sebastianbergmann",
-                    "type": "github"
-                }
-            ],
             "time": "2020-11-28T06:42:11+00:00"
         },
         {
             "name": "sebastian/object-enumerator",
             "version": "4.0.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/object-enumerator.git",
-                "reference": "5c9eeac41b290a3712d88851518825ad78f45c71"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/sebastian/object-enumerator/4.0.4/sebastian-object-enumerator-4.0.4.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/sebastian/object-enumerator/4.0.4/sebastian-object-enumerator-4.0.4.zip",
                 "reference": "5c9eeac41b290a3712d88851518825ad78f45c71",
                 "shasum": ""
             },
@@ -7049,25 +5756,14 @@
             ],
             "description": "Traverses array structures and object graphs to enumerate all referenced objects",
             "homepage": "https://github.com/sebastianbergmann/object-enumerator/",
-            "funding": [
-                {
-                    "url": "https://github.com/sebastianbergmann",
-                    "type": "github"
-                }
-            ],
             "time": "2020-10-26T13:12:34+00:00"
         },
         {
             "name": "sebastian/object-reflector",
             "version": "2.0.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/object-reflector.git",
-                "reference": "b4f479ebdbf63ac605d183ece17d8d7fe49c15c7"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/sebastian/object-reflector/2.0.4/sebastian-object-reflector-2.0.4.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/sebastian/object-reflector/2.0.4/sebastian-object-reflector-2.0.4.zip",
                 "reference": "b4f479ebdbf63ac605d183ece17d8d7fe49c15c7",
                 "shasum": ""
             },
@@ -7099,25 +5795,14 @@
             ],
             "description": "Allows reflection of object attributes, including inherited and non-public ones",
             "homepage": "https://github.com/sebastianbergmann/object-reflector/",
-            "funding": [
-                {
-                    "url": "https://github.com/sebastianbergmann",
-                    "type": "github"
-                }
-            ],
             "time": "2020-10-26T13:14:26+00:00"
         },
         {
             "name": "sebastian/recursion-context",
             "version": "4.0.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/recursion-context.git",
-                "reference": "cd9d8cf3c5804de4341c283ed787f099f5506172"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/sebastian/recursion-context/4.0.4/sebastian-recursion-context-4.0.4.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/sebastian/recursion-context/4.0.4/sebastian-recursion-context-4.0.4.zip",
                 "reference": "cd9d8cf3c5804de4341c283ed787f099f5506172",
                 "shasum": ""
             },
@@ -7157,25 +5842,14 @@
             ],
             "description": "Provides functionality to recursively process PHP variables",
             "homepage": "http://www.github.com/sebastianbergmann/recursion-context",
-            "funding": [
-                {
-                    "url": "https://github.com/sebastianbergmann",
-                    "type": "github"
-                }
-            ],
             "time": "2020-10-26T13:17:30+00:00"
         },
         {
             "name": "sebastian/resource-operations",
             "version": "3.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/resource-operations.git",
-                "reference": "0f4443cb3a1d92ce809899753bc0d5d5a8dd19a8"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/sebastian/resource-operations/3.0.3/sebastian-resource-operations-3.0.3.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/sebastian/resource-operations/3.0.3/sebastian-resource-operations-3.0.3.zip",
                 "reference": "0f4443cb3a1d92ce809899753bc0d5d5a8dd19a8",
                 "shasum": ""
             },
@@ -7207,25 +5881,14 @@
             ],
             "description": "Provides a list of PHP built-in functions that operate on resources",
             "homepage": "https://www.github.com/sebastianbergmann/resource-operations",
-            "funding": [
-                {
-                    "url": "https://github.com/sebastianbergmann",
-                    "type": "github"
-                }
-            ],
             "time": "2020-09-28T06:45:17+00:00"
         },
         {
             "name": "sebastian/type",
             "version": "2.3.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/type.git",
-                "reference": "b8cd8a1c753c90bc1a0f5372170e3e489136f914"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/sebastian/type/2.3.4/sebastian-type-2.3.4.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/sebastian/type/2.3.4/sebastian-type-2.3.4.zip",
                 "reference": "b8cd8a1c753c90bc1a0f5372170e3e489136f914",
                 "shasum": ""
             },
@@ -7258,25 +5921,14 @@
             ],
             "description": "Collection of value objects that represent the types of the PHP type system",
             "homepage": "https://github.com/sebastianbergmann/type",
-            "funding": [
-                {
-                    "url": "https://github.com/sebastianbergmann",
-                    "type": "github"
-                }
-            ],
             "time": "2021-06-15T12:49:02+00:00"
         },
         {
             "name": "sebastian/version",
             "version": "3.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/version.git",
-                "reference": "c6c1022351a901512170118436c764e473f6de8c"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/sebastian/version/3.0.2/sebastian-version-3.0.2.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/sebastian/version/3.0.2/sebastian-version-3.0.2.zip",
                 "reference": "c6c1022351a901512170118436c764e473f6de8c",
                 "shasum": ""
             },
@@ -7306,25 +5958,14 @@
             ],
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
             "homepage": "https://github.com/sebastianbergmann/version",
-            "funding": [
-                {
-                    "url": "https://github.com/sebastianbergmann",
-                    "type": "github"
-                }
-            ],
             "time": "2020-09-28T06:39:44+00:00"
         },
         {
             "name": "theseer/tokenizer",
             "version": "1.2.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/theseer/tokenizer.git",
-                "reference": "34a41e998c2183e22995f158c581e7b5e755ab9e"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://mirrors.huaweicloud.com/artifactory/api/composer/remote-php-composer/theseer/tokenizer/1.2.1/theseer-tokenizer-1.2.1.zip",
+                "url": "https://mirrors.tencent.com/repository/composer/theseer/tokenizer/1.2.1/theseer-tokenizer-1.2.1.zip",
                 "reference": "34a41e998c2183e22995f158c581e7b5e755ab9e",
                 "shasum": ""
             },
@@ -7351,12 +5992,6 @@
                 }
             ],
             "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",
-            "funding": [
-                {
-                    "url": "https://github.com/theseer",
-                    "type": "github"
-                }
-            ],
             "time": "2021-07-28T10:34:58+00:00"
         }
     ],
@@ -7369,5 +6004,5 @@
         "php": "^7.3|^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.2.0"
 }

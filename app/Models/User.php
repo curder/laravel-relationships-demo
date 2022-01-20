@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
@@ -41,4 +42,19 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    // protected $touches = ['account'];
+
+    /**
+     * @return HasOne
+     */
+    public function account(): HasOne
+    {
+        /**
+         * UserAccount::class related 关联模型
+         * user_id foreignKey 当前表关联字段
+         * id localKey 关联表字段
+         */
+        return $this->hasOne(UserAccount::class, 'user_id', 'id');
+    }
 }
