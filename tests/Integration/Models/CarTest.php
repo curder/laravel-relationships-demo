@@ -2,9 +2,9 @@
 
 namespace Tests\Itegration\Models;
 
-use Tests\TestCase;
-use Illuminate\Support\Facades\Schema;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
+use Illuminate\Support\Facades\Schema;
+use Tests\TestCase;
 
 class CarTest extends TestCase
 {

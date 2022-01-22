@@ -1,4 +1,5 @@
 <?php
+
 namespace Tests\Itegration\Models;
 
 use App\Models\Car;
@@ -51,5 +52,4 @@ class HasOneThroughTest extends TestCase
         $this->assertInstanceOf(Car::class, $owner->car);
         $this->assertInstanceOf(Relation::class, $owner->car());
     }
-
 }
