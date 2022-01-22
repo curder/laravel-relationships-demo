@@ -6,6 +6,9 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasOneThrough;
 
+/**
+ * @property Owner|HasOneThrough|null carOwner
+ */
 class Mechanic extends Model
 {
     use HasFactory;
