@@ -2,7 +2,6 @@
 
 namespace Tests\Integration\Models;
 
-
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Support\Facades\Schema;
 use Tests\TestCase;

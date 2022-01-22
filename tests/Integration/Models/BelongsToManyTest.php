@@ -1,14 +1,14 @@
 <?php
+
 namespace Tests\Integration\Models;
 
 use App\Models\Role;
 use App\Models\RoleUser;
 use App\Models\User;
-use Database\Factories\RoleUserFactory;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
-use Tests\TestCase;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
+use Tests\TestCase;
 
 /**
  * Class BelongsToManyTest
@@ -19,12 +19,11 @@ class BelongsToManyTest extends TestCase
 {
     use DatabaseMigrations;
 
-
     /** @test */
     public function a_user_has_belongs_to_many_roles(): void
     {
         /** @var User $user */
-        $user  = User::factory()->create();
+        $user = User::factory()->create();
         $count = 2;
         $roles = Role::factory()->count($count)->create();
         $user->roles()->attach($roles);
@@ -45,7 +44,7 @@ class BelongsToManyTest extends TestCase
     public function a_role_has_belongs_to_many_users(): void
     {
         /** @var Role $role */
-        $role  = Role::factory()->create();
+        $role = Role::factory()->create();
         $count = 2;
         $users = User::factory()->count($count)->create();
         $role->users()->attach($users);

@@ -15,7 +15,7 @@ class Role extends Model
 
     protected $fillable = ['name', 'display_name', 'description'];
 
-    public function users() : BelongsToMany
+    public function users(): BelongsToMany
     {
         /**
          * @param  string $related         关联关系
