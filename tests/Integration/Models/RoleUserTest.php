@@ -3,6 +3,8 @@
 namespace Tests\Integration\Models;
 
 
+use App\Models\RoleUser;
+use App\Models\User;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Support\Facades\Schema;
 use Tests\TestCase;

@@ -6,6 +6,9 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
+/**
+ * @property BelongsToMany users
+ */
 class Role extends Model
 {
     use HasFactory;
@@ -25,7 +28,7 @@ class Role extends Model
          */
         return $this->belongsToMany(User::class, 'role_user', 'role_id', 'user_id', 'id', 'id', 'users')
                     ->using(RoleUser::class)
-                    ->withPivot(['created_at', 'updated_at']) // 中间表的字段，这里的中间表是 role_user
+                    ->withPivot(['description']) // 中间表的字段，这里的中间表是 role_user，默认有 created_at和 updated_at 字段
                     ->withTimestamps();
     }
 }
