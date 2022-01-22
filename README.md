@@ -3,6 +3,14 @@
 [![GitHub Tests Action Status](https://github.com/curder/larave-relationships-demo/actions/workflows/run-test.yml/badge.svg?branch=has-many)](https://github.com/curder/larave-relationships-demo/actions?query=run-test%3Ahas-many)
 [![GitHub Code Style Action Status](https://github.com/curder/larave-relationships-demo/actions/workflows/php-cs-fixer.yml/badge.svg?branch=has-many)](https://github.com/curder/larave-relationships-demo/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Ahas-many)
 
+## 下载
+
+```bash
+git clone -b has-many git@github.com:curder/laravel-relationships-demo.git
+
+cd laravel-relationships-demo
+```
+
 ## 安装
 
 ```bash
