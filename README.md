@@ -1,5 +1,8 @@
 # hasOneThrough 远层一对一 
 
+[![Test Laravel Github action](https://github.com/curder/laravel-relationships-demo/actions/workflows/run-test.yml/badge.svg?branch=has-one-through)](https://github.com/curder/laravel-relationships-demo/actions/workflows/run-test.yml)
+[![Check & fix styling](https://github.com/curder/laravel-relationships-demo/actions/workflows/php-cs-fixer.yml/badge.svg?branch=has-one-through)](https://github.com/curder/laravel-relationships-demo/actions/workflows/php-cs-fixer.yml)
+
 ## 下载
 
 ```bash
