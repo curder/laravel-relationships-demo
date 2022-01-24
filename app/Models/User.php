@@ -4,6 +4,9 @@ namespace App\Models;
 
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasManyThrough;
+use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
@@ -41,4 +44,23 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+
+    public function country(): HasOne
+    {
+        return $this->hasOne(Country::class);
+    }
+
+
+    public function posts(): HasManyThrough
+    {
+        /**
+         * @param  string      $related
+         * @param  string      $through
+         * @param  string|null $firstKey
+         * @param  string|null $secondKey
+         * @param  string|null $localKey 不填默认为当前模型的主键
+         */
+        return $this->hasManyThrough(Post::class, Country::class);
+    }
 }
