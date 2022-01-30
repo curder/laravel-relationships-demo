@@ -1,12 +1,13 @@
 <?php
+
 namespace Tests\Integration\Models;
 
 use App\Models\Image;
 use App\Models\User;
 use Illuminate\Database\Eloquent\Relations\HasOneOrMany;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
-use Tests\TestCase;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
+use Tests\TestCase;
 
 /**
  * Class OneOfManyPolymorphicTest
