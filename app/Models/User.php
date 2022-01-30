@@ -11,6 +11,7 @@ use Laravel\Sanctum\HasApiTokens;
 
 /**
  * @property HasOne latestOrder
+ * @property HasOne oldestOrder
  */
 class User extends Authenticatable
 {
@@ -50,6 +51,16 @@ class User extends Authenticatable
     {
         return $this->hasOne(Order::class)
                     ->latestOfMany()
+                    ->withDefault();
+    }
+
+    /**
+     * Get the user's oldest order.
+     */
+    public function oldestOrder(): HasOne
+    {
+        return $this->hasOne(Order::class)
+                    ->oldestOfMany()
                     ->withDefault();
     }
 }

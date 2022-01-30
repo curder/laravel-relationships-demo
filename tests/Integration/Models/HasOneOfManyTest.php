@@ -30,4 +30,19 @@ class HasOneOfManyTest extends TestCase
        $this->assertInstanceOf(Order::class, $user->latestOrder);
        $this->assertInstanceOf(HasOneOrMany::class, $user->latestOrder());
    }
+
+    /** @test */
+    public function a_user_has_oldest_order(): void
+    {
+        /** @var User $user */
+        $user = User::factory()->create();
+        $this->assertInstanceOf(Order::class, $user->oldestOrder); // assert has default object
+
+        /** @var \Illuminate\Database\Eloquent\Collection $orders */
+        $orders = Order::factory()->count(10)->for($user)->create();
+
+        $this->assertTrue($orders->first()->is($user->refresh()->oldestOrder)); // 刷新模型是因为上面变量有缓存
+        $this->assertInstanceOf(Order::class, $user->oldestOrder);
+        $this->assertInstanceOf(HasOneOrMany::class, $user->oldestOrder());
+    }
 }
