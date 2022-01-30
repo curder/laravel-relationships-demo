@@ -16,7 +16,19 @@ class ImageFactory extends Factory
     {
         return [
             'url' => $this->faker->imageUrl(),
-            'likes' => 0,
+            'likes' => $this->faker->randomNumber(),
         ];
+    }
+    public function best()
+    {
+        return $this->state(fn(array $attributes) => [
+            'likes' => 9999,
+        ]);
+    }
+    public function worst()
+    {
+        return $this->state(fn(array $attributes) => [
+            'likes' => 0,
+        ]);
     }
 }

@@ -12,6 +12,7 @@ use Laravel\Sanctum\HasApiTokens;
 /**
  * @property MorphOne latestImage
  * @property MorphOne oldestImage
+ * @property MorphOne bestImage
  */
 class User extends Authenticatable
 {
@@ -64,6 +65,16 @@ class User extends Authenticatable
     {
         return $this->morphOne(Image::class, 'imageable')
                     ->oldestOfMany()
+                    ->withDefault();
+    }
+
+    /**
+     * Get the user's most popular image.
+     */
+    public function bestImage(): MorphOne
+    {
+        return $this->morphOne(Image::class, 'imageable')
+                    ->ofMany('likes', 'max')
                     ->withDefault();
     }
 }

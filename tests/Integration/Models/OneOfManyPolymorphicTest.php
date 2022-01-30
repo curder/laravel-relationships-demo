@@ -60,4 +60,20 @@ class OneOfManyPolymorphicTest extends TestCase
         $this->assertInstanceOf(Image::class, $user->oldestImage);
         $this->assertInstanceOf(HasOneOrMany::class, $user->oldestImage());
     }
+
+    /** @test */
+    public function a_user_has_best_image(): void
+    {
+        /** @var User $user */
+        $user = User::factory()->create();
+        $this->assertInstanceOf(Image::class, $user->bestImage); // assert has default object
+
+        /** @var \Illuminate\Database\Eloquent\Collection $images */
+        $best_image = Image::factory()->for($user, 'imageable')->best()->create();
+        $worst_image = Image::factory()->for($user, 'imageable')->worst()->create();
+
+        $this->assertTrue($best_image->is($user->refresh()->bestImage)); // 刷新模型是因为上面变量有缓存
+        $this->assertInstanceOf(Image::class, $user->bestImage);
+        $this->assertInstanceOf(HasOneOrMany::class, $user->bestImage());
+    }
 }
