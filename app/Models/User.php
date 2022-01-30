@@ -11,6 +11,7 @@ use Laravel\Sanctum\HasApiTokens;
 
 /**
  * @property MorphOne latestImage
+ * @property MorphOne oldestImage
  */
 class User extends Authenticatable
 {
@@ -53,6 +54,16 @@ class User extends Authenticatable
     {
         return $this->morphOne(Image::class, 'imageable')
                     ->latestOfMany()
+                    ->withDefault();
+    }
+
+    /**
+     * Get the user's oldest image.
+     */
+    public function oldestImage(): MorphOne
+    {
+        return $this->morphOne(Image::class, 'imageable')
+                    ->oldestOfMany()
                     ->withDefault();
     }
 }
