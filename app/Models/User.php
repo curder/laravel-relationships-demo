@@ -12,6 +12,7 @@ use Laravel\Sanctum\HasApiTokens;
 /**
  * @property HasOne latestOrder
  * @property HasOne oldestOrder
+ * @property HasOne largestOrder
  */
 class User extends Authenticatable
 {
@@ -61,6 +62,16 @@ class User extends Authenticatable
     {
         return $this->hasOne(Order::class)
                     ->oldestOfMany()
+                    ->withDefault();
+    }
+
+    /**
+     * Get the user's largest order.
+     */
+    public function largestOrder(): HasOne
+    {
+        return $this->hasOne(Order::class)
+                    ->ofMany('price', 'max')
                     ->withDefault();
     }
 }
