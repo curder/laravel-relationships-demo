@@ -15,7 +15,6 @@ class CountryFactory extends Factory
     public function definition(): array
     {
         return [
-            'user_id' => fn () => User::factory()->create(),
             'name' => $this->faker->word(),
             'display_name' => $this->faker->word(),
         ];

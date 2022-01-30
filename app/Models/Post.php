@@ -6,14 +6,20 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
+/**
+ * @property int id
+ * @property int user_id
+ *
+ * @property BelongsTo user
+ */
 class Post extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['country_id', 'name', 'body', 'published_at'];
+    protected $fillable = ['user_id', 'name', 'body', 'published_at'];
 
-    public function country(): BelongsTo
+    public function user(): BelongsTo
     {
-        return $this->belongsTo(Country::class);
+        return $this->belongsTo(User::class);
     }
 }

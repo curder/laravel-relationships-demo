@@ -16,8 +16,8 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $country = Country::factory()->create();
+        $user = User::factory()->create();
 
-        Post::factory()->count(2)->create(['country_id' => $country]);
+        Post::factory()->count(5)->create(['user_id' => $user]);
     }
 }

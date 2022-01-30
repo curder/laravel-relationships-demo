@@ -2,7 +2,7 @@
 
 namespace Database\Factories;
 
-use App\Models\Country;
+use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class PostFactory extends Factory
@@ -15,7 +15,7 @@ class PostFactory extends Factory
     public function definition(): array
     {
         return [
-            'country_id' => fn () => Country::factory()->create(),
+            'user_id' => fn () => User::factory()->create(),
             'name' => $this->faker->word(),
             'body' => $this->faker->sentence(10),
             'published_at' => null,

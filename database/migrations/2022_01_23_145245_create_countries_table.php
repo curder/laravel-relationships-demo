@@ -15,16 +15,9 @@ class CreateCountriesTable extends Migration
     {
         Schema::create('countries', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('user_id');
             $table->string('name');
             $table->string('display_name');
             $table->timestamps();
-
-            $table->foreign('user_id')
-                  ->references('id')
-                  ->on('users')
-                  ->onUpdate('cascade')
-                  ->onDelete('cascade');
         });
     }
 

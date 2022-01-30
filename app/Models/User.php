@@ -5,12 +5,17 @@ namespace App\Models;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasManyThrough;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 
+/**
+ * @property HasOne country
+ * @property HasMany posts
+ */
 class User extends Authenticatable
 {
     use HasApiTokens, HasFactory, Notifiable;
@@ -46,21 +51,13 @@ class User extends Authenticatable
     ];
 
 
-    public function country(): HasOne
+    public function country(): BelongsTo
     {
-        return $this->hasOne(Country::class);
+        return $this->BelongsTo(Country::class);
     }
 
-
-    public function posts(): HasManyThrough
+    public function posts(): HasMany
     {
-        /**
-         * @param  string      $related
-         * @param  string      $through
-         * @param  string|null $firstKey
-         * @param  string|null $secondKey
-         * @param  string|null $localKey 不填默认为当前模型的主键
-         */
-        return $this->hasManyThrough(Post::class, Country::class);
+        return $this->hasMany(Post::class);
     }
 }

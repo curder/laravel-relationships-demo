@@ -9,19 +9,26 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasManyThrough;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 
+/**
+ * @property int id
+ *
+ * @property HasManyThrough posts
+ */
 class Country extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['user_id', 'name', 'display_name'];
+    protected $fillable = ['name', 'display_name'];
 
-    public function user(): BelongsTo
+    public function posts(): HasManyThrough
     {
-        return $this->belongsTo(User::class);
-    }
-
-    public function posts(): HasMany
-    {
-        return $this->hasMany(Post::class);
+        /**
+         * @param  string      $related
+         * @param  string      $through
+         * @param  string|null $firstKey
+         * @param  string|null $secondKey
+         * @param  string|null $localKey 不填默认为当前模型的主键
+         */
+        return $this->hasManyThrough(Post::class, User::class);
     }
 }
