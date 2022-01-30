@@ -18,7 +18,6 @@ class CreateOrdersTable extends Migration
             $table->unsignedBigInteger('user_id');
             $table->string('name');
             $table->decimal('price', 12, 4);
-            $table->timestamp('published_at')->nullable();
             $table->timestamps();
 
             $table->foreign('user_id')

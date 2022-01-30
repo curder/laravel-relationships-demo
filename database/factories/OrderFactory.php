@@ -18,7 +18,6 @@ class OrderFactory extends Factory
             'user_id' => fn () => User::factory()->create(),
             'name' => $this->faker->words(10, true),
             'price' => $this->faker->randomFloat(10, 50000),
-            'published_at' => $this->faker->dateTime(),
         ];
     }
 }

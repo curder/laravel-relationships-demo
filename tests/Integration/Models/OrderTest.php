@@ -28,7 +28,6 @@ class OrderTest extends TestCase
             'user_id',
             'name',
             'price',
-            'published_at',
             'created_at',
             'updated_at',
         ];
