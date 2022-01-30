@@ -1,12 +1,13 @@
 <?php
+
 namespace Tests\Integration\Models;
 
-use Tests\TestCase;
-use App\Models\User;
 use App\Models\Post;
-use Illuminate\Support\Facades\Schema;
+use App\Models\User;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
+use Illuminate\Support\Facades\Schema;
+use Tests\TestCase;
 
 class PostTest extends TestCase
 {

@@ -1,15 +1,16 @@
 <?php
+
 namespace Tests\Integration\Models;
 
 use App\Models\Country;
 use App\Models\Post;
+use App\Models\User;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasOneOrMany;
-use Tests\TestCase;
-use App\Models\User;
-use Illuminate\Support\Facades\Schema;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
+use Illuminate\Support\Facades\Schema;
+use Tests\TestCase;
 
 class UserTest extends TestCase
 {
@@ -46,7 +47,7 @@ class UserTest extends TestCase
         /** @var Country $country */
         $country = Country::factory()->create();
         /** @var User $user */
-        $user    = User::factory()->create(['country_id' => $country]);
+        $user = User::factory()->create(['country_id' => $country]);
 
         $this->assertTrue($country->is($user->country));
         $this->assertInstanceOf(Country::class, $user->country);

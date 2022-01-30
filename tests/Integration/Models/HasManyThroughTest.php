@@ -1,9 +1,10 @@
 <?php
+
 namespace Tests\Integration\Models;
 
+use App\Models\Country;
 use App\Models\Post;
 use App\Models\User;
-use App\Models\Country;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Tests\TestCase;
@@ -23,9 +24,9 @@ class HasManyThroughTest extends TestCase
         /** @var Country $country */
         $country = Country::factory()->create();
         /** @var User $user */
-        $user    = User::factory()->create(['country_id' => $country]);
+        $user = User::factory()->create(['country_id' => $country]);
         /** @var Post $post */
-        $post    = Post::factory()->create(['user_id' => $user]);
+        $post = Post::factory()->create(['user_id' => $user]);
 
         $this->assertInstanceOf(Collection::class, $country->posts);
         $this->assertInstanceOf(Post::class, $country->posts->first());

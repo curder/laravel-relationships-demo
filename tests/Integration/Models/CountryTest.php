@@ -1,12 +1,7 @@
 <?php
+
 namespace Tests\Integration\Models;
 
-use App\Models\Country;
-use App\Models\Post;
-use App\Models\User;
-use Illuminate\Database\Eloquent\Collection;
-use Illuminate\Database\Eloquent\Relations\HasOneOrMany;
-use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Support\Facades\Schema;
 use Tests\TestCase;
