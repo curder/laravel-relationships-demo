@@ -2,6 +2,9 @@
 
 namespace Tests\Integration\Models;
 
+use App\Models\Order;
+use App\Models\User;
+use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Support\Facades\Schema;
 use Tests\TestCase;
@@ -35,5 +38,18 @@ class OrderTest extends TestCase
 
         $this->assertSame(Schema::getColumnListing('orders'), $columns);
         $this->assertTrue(Schema::hasColumns('orders', $columns));
+    }
+
+    /** @test */
+    public function an_order_belongs_to_a_user(): void
+    {
+        /** @var \App\Models\User $user */
+        $user = User::factory()->create();
+        $order = Order::factory()->create(['user_id' => $user]);
+
+        $this->assertEquals($user->id, $order->user_id);
+        $this->assertEquals($user->id, $order->user->id);
+        $this->assertInstanceOf(User::class, $order->user);
+        $this->assertInstanceOf(Relation::class, $order->user());
     }
 }
