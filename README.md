@@ -6,4 +6,5 @@
 - [BelongsToMany 多对多](https://github.com/curder/laravel-relationships-demo/tree/belongs-to-many)
 - [HasOneThrough 远层一对一](https://github.com/curder/laravel-relationships-demo/tree/has-one-through)
 - [HasManyThrough 远层一对多](https://github.com/curder/laravel-relationships-demo/tree/has-many-through)
+- [OneOfManyPolymorphicRelations 多态其中之一](https://github.com/curder/laravel-relationships-demo/tree/one-of-many-polymorphic-relations)
 - [OneToOnePolymorphicRelations 多态一对一](https://github.com/curder/laravel-relationships-demo/tree/one-to-one-polymorphic-relations)
