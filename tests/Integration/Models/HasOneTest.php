@@ -18,28 +18,29 @@ class HasOneTest extends TestCase
 {
     use DatabaseMigrations;
 
+    protected User $user;
+    protected UserAccount $user_account;
+
+    protected function setUp() : void
+    {
+        parent::setUp();
+        $this->user_account = UserAccount::factory()
+                                   ->for($this->user = User::factory()->create())
+                                   ->create();
+    }
     /** @test */
     public function a_user_has_one_account(): void
     {
-        /** @var User $user */
-        $user = User::factory()->create();
-        $user_account = UserAccount::factory()->create(['user_id' => $user]);
-
-        $this->assertTrue($user_account->is($user->account));
-        $this->assertInstanceOf(UserAccount::class, $user->account);
-        $this->assertInstanceOf(HasOneOrMany::class, $user->account());
+        $this->assertTrue($this->user_account->is($this->user->account));
+        $this->assertInstanceOf(UserAccount::class, $this->user->account);
+        $this->assertInstanceOf(HasOneOrMany::class, $this->user->account());
     }
 
     /** @test */
     public function an_user_account_belongs_to_a_user(): void
     {
-        /** @var User $user */
-        $user = User::factory()->create();
-        /** @var UserAccount $account */
-        $account = UserAccount::factory()->create(['user_id' => $user]);
-
-        $this->assertTrue($user->is($account->user));
-        $this->assertInstanceOf(User::class, $account->user);
-        $this->assertInstanceOf(Relation::class, $account->user());
+        $this->assertTrue($this->user->is($this->user_account->user));
+        $this->assertInstanceOf(User::class, $this->user_account->user);
+        $this->assertInstanceOf(Relation::class, $this->user_account->user());
     }
 }
