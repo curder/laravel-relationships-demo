@@ -2,15 +2,10 @@
 
 namespace Tests\Integration\Models;
 
-use Illuminate\Foundation\Testing\DatabaseMigrations;
-use Illuminate\Support\Facades\Schema;
 use Tests\TestCase;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Foundation\Testing\DatabaseMigrations;
 
-/**
- * Class PostTest
- *
- * @package \Tests\Integration\Models
- */
 class PostTest extends TestCase
 {
     use DatabaseMigrations;
