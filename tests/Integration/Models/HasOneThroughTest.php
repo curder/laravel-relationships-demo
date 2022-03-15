@@ -17,10 +17,8 @@ class HasOneThroughTest extends TestCase
     /** @test */
     public function a_mechanic_has_one_owner_through_car(): void
     {
-        /** @var \App\Models\Mechanic $mechanic */
-        $mechanic = Mechanic::factory()->create();
-        $car = Car::factory()->create(['mechanic_id' => $mechanic]);
-        $owner = Owner::factory()->create(['car_id' => $car]);
+        $car = Car::factory()->for($mechanic = Mechanic::factory()->create())->create();
+        $owner = Owner::factory()->for($car)->create();
 
         $this->assertInstanceOf(Owner::class, $mechanic->carOwner()->first());
         $this->assertTrue($owner->is($mechanic->carOwner));
@@ -34,8 +32,7 @@ class HasOneThroughTest extends TestCase
     public function a_car_belongs_to_a_mechanic(): void
     {
         /** @var Car $car */
-        $mechanic = Mechanic::factory()->create();
-        $car = Car::factory()->create(['mechanic_id' => $mechanic]);
+        $car = Car::factory()->for($mechanic = Mechanic::factory()->create())->create();
 
         $this->assertTrue($mechanic->is($car->mechanic));
         $this->assertInstanceOf(Mechanic::class, $car->mechanic);
@@ -45,8 +42,8 @@ class HasOneThroughTest extends TestCase
     /** @test */
     public function a_owner_belongs_to_a_car(): void
     {
-        $car = Car::factory()->create();
-        $owner = Owner::factory()->create(['car_id' => $car]);
+        /** @var Owner $owner */
+        $owner = Owner::factory()->for($car = Car::factory()->create())->create();
 
         $this->assertTrue($car->is($owner->car));
         $this->assertInstanceOf(Car::class, $owner->car);
