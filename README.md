@@ -8,6 +8,5 @@
 - [HasManyThrough 远层一对多](https://github.com/curder/laravel-relationships-demo/tree/has-many-through)
 - [OneOfManyPolymorphicRelations 多态其中之一](https://github.com/curder/laravel-relationships-demo/tree/one-of-many-polymorphic-relations)
 - [OneToOnePolymorphicRelations 多态一对一](https://github.com/curder/laravel-relationships-demo/tree/one-to-one-polymorphic-relations)
-
-- [TODO - OneToManyPolymorphicRelations 多态一对多](https://github.com/curder/laravel-relationships-demo/tree/one-to-many-polymorphic-relations)
+- [OneToManyPolymorphicRelations 多态一对多](https://github.com/curder/laravel-relationships-demo/tree/one-to-many-polymorphic-relations)
 - [TODO - ManyToManyPolymorphicRelations 多态多对多](https://github.com/curder/laravel-relationships-demo/tree/many-to-many-polymorphic-relations)
