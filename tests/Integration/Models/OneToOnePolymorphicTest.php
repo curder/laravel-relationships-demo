@@ -27,14 +27,13 @@ class OneToOnePolymorphicTest extends TestCase
         $this->assertSame($user->image->imageable_type, get_class($user));
 
         // create
-        $user->image()->create([
-            'url' => $url = $this->faker->imageUrl(),
-        ]);
+        $image = Image::factory()->for($user, 'imageable')->create();
         $user->refresh();
 
         $this->assertInstanceOf(Image::class, $user->image);
+        $this->assertTrue($image->is($user->image));
         $this->assertNotNull($user->image->url);
-        $this->assertSame($url, $user->image->url);
+        $this->assertSame($image->url, $user->image->url);
         $this->assertSame($user->image->imageable_id, $user->id);
         $this->assertSame($user->image->imageable_type, get_class($user));
     }
@@ -52,14 +51,13 @@ class OneToOnePolymorphicTest extends TestCase
         $this->assertSame($post->image->imageable_type, get_class($post));
 
         // create
-        $post->image()->create([
-            'url' => $url = $this->faker->imageUrl(),
-        ]);
+        $image = Image::factory()->for($post, 'imageable')->create();
         $post->refresh();
 
         $this->assertInstanceOf(Image::class, $post->image);
+        $this->assertTrue($image->is($post->image));
         $this->assertNotNull($post->image->url);
-        $this->assertSame($url, $post->image->url);
+        $this->assertSame($image->url, $post->image->url);
         $this->assertSame($post->image->imageable_id, $post->id);
         $this->assertSame($post->image->imageable_type, get_class($post));
     }

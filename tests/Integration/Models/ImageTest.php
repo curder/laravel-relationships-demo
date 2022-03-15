@@ -27,13 +27,9 @@ class ImageTest extends TestCase
     /** @test */
     public function an_image_can_be_uploaded_by_a_user(): void
     {
-        $user = User::factory()->create();
-
-        // morphedTo a USER
-        $image = Image::factory()->create([
-            "imageable_id" => $user,
-            "imageable_type" => User::class,
-        ]);
+        $image = Image::factory()
+                      ->for($user = User::factory()->create(), 'imageable')
+                      ->create();
 
         $this->assertInstanceOf(User::class, $image->imageable);
         $this->assertTrue($image->imageable->is($user));
@@ -42,13 +38,9 @@ class ImageTest extends TestCase
     /** @test */
     public function an_image_can_be_uploaded_for_a_post(): void
     {
-        $post = Post::factory()->create();
-
-        // morphedTo a POST
-        $image = Image::factory()->create([
-            "imageable_id" => $post,
-            "imageable_type" => Post::class,
-        ]);
+        $image = Image::factory()
+                      ->for($post = Post::factory()->create(), 'imageable')
+                      ->create();
 
         $this->assertInstanceOf(Post::class, $image->imageable);
         $this->assertTrue($image->imageable->is($post));
