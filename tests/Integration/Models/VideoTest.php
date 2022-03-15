@@ -1,10 +1,11 @@
 <?php
+
 namespace Tests\Integration\Models;
 
-use Tests\TestCase;
 use App\Models\Video;
-use Illuminate\Support\Facades\Schema;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
+use Illuminate\Support\Facades\Schema;
+use Tests\TestCase;
 
 /**
  * @see Video

@@ -1,10 +1,11 @@
 <?php
+
 namespace Tests\Integration\Models;
 
+use App\Models\Post;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Support\Facades\Schema;
 use Tests\TestCase;
-use App\Models\Post;
 
 /**
  * @see Post
@@ -35,4 +36,3 @@ class PostTest extends TestCase
         $this->assertTrue(Schema::hasColumns('posts', $columns));
     }
 }
-

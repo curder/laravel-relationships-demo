@@ -1,13 +1,14 @@
 <?php
+
 namespace Tests\Integration\Models;
 
 use App\Models\Post;
 use App\Models\Tag;
-use Illuminate\Database\Eloquent\Relations\MorphToMany;
-use Tests\TestCase;
 use App\Models\Video;
 use Illuminate\Database\Eloquent\Collection;
+use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
+use Tests\TestCase;
 
 class ManyToManyPolymorphicTest extends TestCase
 {
@@ -25,7 +26,6 @@ class ManyToManyPolymorphicTest extends TestCase
         $this->assertFalse($post->tags->isEmpty());
         $this->assertSame($post->tags->first()->getOriginal('pivot_taggable_id'), $post->id);
         $this->assertSame($post->tags->first()->getOriginal('pivot_taggable_type'), get_class($post));
-
     }
 
     /** @test */

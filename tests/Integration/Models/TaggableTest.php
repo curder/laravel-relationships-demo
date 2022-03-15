@@ -1,10 +1,11 @@
 <?php
+
 namespace Tests\Integration\Models;
 
 use App\Models\Taggable;
-use Tests\TestCase;
-use Illuminate\Support\Facades\Schema;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
+use Illuminate\Support\Facades\Schema;
+use Tests\TestCase;
 
 /**
  * @see Taggable
@@ -34,5 +35,4 @@ class TaggableTest extends TestCase
         $this->assertSame(Schema::getColumnListing('taggables'), $columns);
         $this->assertTrue(Schema::hasColumns('taggables', $columns));
     }
-
 }

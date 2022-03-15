@@ -1,10 +1,11 @@
 <?php
+
 namespace Tests\Integration\Models;
 
-use Illuminate\Support\Facades\Schema;
-use Tests\TestCase;
 use App\Models\Tag;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
+use Illuminate\Support\Facades\Schema;
+use Tests\TestCase;
 
 /**
  * @see Tag
