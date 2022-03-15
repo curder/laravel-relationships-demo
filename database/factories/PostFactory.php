@@ -11,10 +11,11 @@ class PostFactory extends Factory
      *
      * @return array
      */
-    public function definition()
+    public function definition(): array
     {
         return [
-            //
+            'name' => implode(' ', $this->faker->words(3)),
+            'body' => $this->faker->sentence(10),
         ];
     }
 }
