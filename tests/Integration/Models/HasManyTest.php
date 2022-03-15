@@ -2,13 +2,13 @@
 
 namespace Tests\Integration\Models;
 
-use Tests\TestCase;
 use App\Models\Post;
 use App\Models\User;
 use Illuminate\Database\Eloquent\Collection;
+use Illuminate\Database\Eloquent\Relations\HasOneOrMany;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
-use Illuminate\Database\Eloquent\Relations\HasOneOrMany;
+use Tests\TestCase;
 
 class HasManyTest extends TestCase
 {
@@ -17,7 +17,7 @@ class HasManyTest extends TestCase
     protected User $user;
     protected Post $post;
 
-    protected function setUp() : void
+    protected function setUp(): void
     {
         parent::setUp();
 
@@ -25,6 +25,7 @@ class HasManyTest extends TestCase
                     ->for($this->user = User::factory()->create())
                     ->create();
     }
+
     /** @test */
     public function a_user_has_many_posts(): void
     {
