@@ -31,6 +31,9 @@ class OneToManyPolymorphicTest extends TestCase
 
         $post->refresh();
 
+        $this->assertInstanceOf(Post::class, $post->comments->first()->commentable);
+        $this->assertTrue($post->comments->first()->commentable->is($post));
+
         $this->assertInstanceOf(Collection::class, $post->comments);
         $this->assertInstanceOf(Comment::class, $post->comments->first());
         $this->assertInstanceOf(MorphMany::class, $post->comments());
@@ -55,6 +58,9 @@ class OneToManyPolymorphicTest extends TestCase
                ->create();
 
         $video->refresh();
+
+        $this->assertInstanceOf(Video::class, $video->comments->first()->commentable);
+        $this->assertTrue($video->comments->first()->commentable->is($video));
 
         $this->assertInstanceOf(Collection::class, $video->comments);
         $this->assertInstanceOf(Comment::class, $video->comments->first());
