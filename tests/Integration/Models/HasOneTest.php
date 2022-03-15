@@ -21,13 +21,14 @@ class HasOneTest extends TestCase
     protected User $user;
     protected UserAccount $user_account;
 
-    protected function setUp() : void
+    protected function setUp(): void
     {
         parent::setUp();
         $this->user_account = UserAccount::factory()
                                    ->for($this->user = User::factory()->create())
                                    ->create();
     }
+
     /** @test */
     public function a_user_has_one_account(): void
     {
