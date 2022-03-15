@@ -43,9 +43,10 @@ class OrderTest extends TestCase
     /** @test */
     public function an_order_belongs_to_a_user(): void
     {
-        /** @var \App\Models\User $user */
-        $user = User::factory()->create();
-        $order = Order::factory()->create(['user_id' => $user]);
+        /** @var Order $order */
+        $order = Order::factory()
+                      ->for($user = User::factory()->create())
+                      ->create(['user_id' => $user]);
 
         $this->assertEquals($user->id, $order->user_id);
         $this->assertEquals($user->id, $order->user->id);
