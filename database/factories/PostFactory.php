@@ -14,7 +14,8 @@ class PostFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'name' => implode(' ', $this->faker->words(10)),
+            'body' => $this->faker->sentence(10),
         ];
     }
 }
