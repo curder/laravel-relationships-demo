@@ -1,4 +1,5 @@
 <?php
+
 namespace Tests\Integration\Models;
 
 use App\Models\Post;
@@ -34,5 +35,4 @@ class PostTest extends TestCase
         $this->assertSame(Schema::getColumnListing('posts'), $columns);
         $this->assertTrue(Schema::hasColumns('posts', $columns));
     }
-
 }

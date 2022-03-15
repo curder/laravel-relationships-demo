@@ -1,9 +1,10 @@
 <?php
+
 namespace Tests\Integration\Models;
 
 use App\Models\User;
-use Illuminate\Support\Facades\Schema;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
+use Illuminate\Support\Facades\Schema;
 use Tests\TestCase;
 
 /**
@@ -36,5 +37,4 @@ class UserTest extends TestCase
         $this->assertSame(Schema::getColumnListing('users'), $columns);
         $this->assertTrue(Schema::hasColumns('users', $columns));
     }
-
 }

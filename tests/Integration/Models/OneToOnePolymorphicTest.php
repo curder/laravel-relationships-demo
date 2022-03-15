@@ -1,16 +1,18 @@
 <?php
+
 namespace Tests\Integration\Models;
 
-use Tests\TestCase;
+use App\Models\Image;
 use App\Models\Post;
 use App\Models\User;
-use App\Models\Image;
-use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
+use Illuminate\Foundation\Testing\WithFaker;
+use Tests\TestCase;
 
 class OneToOnePolymorphicTest extends TestCase
 {
-    use DatabaseMigrations, WithFaker;
+    use DatabaseMigrations;
+    use WithFaker;
 
     /** @test */
     public function a_user_morphs_to_image(): void
@@ -61,5 +63,4 @@ class OneToOnePolymorphicTest extends TestCase
         $this->assertSame($post->image->imageable_id, $post->id);
         $this->assertSame($post->image->imageable_type, get_class($post));
     }
-
 }

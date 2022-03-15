@@ -1,12 +1,13 @@
 <?php
+
 namespace Tests\Integration\Models;
 
+use App\Models\Image;
 use App\Models\Post;
 use App\Models\User;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
-use Tests\TestCase;
-use App\Models\Image;
 use Illuminate\Support\Facades\Schema;
+use Tests\TestCase;
 
 /**
  * @see Image
@@ -19,7 +20,7 @@ class ImageTest extends TestCase
     public function images_database_has_expected_columns(): void
     {
         $this->assertTrue(Schema::hasColumns('images', [
-            'id', "url", "imageable_id", "imageable_type"
+            'id', "url", "imageable_id", "imageable_type",
         ]));
     }
 

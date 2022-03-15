@@ -21,7 +21,7 @@ class Image extends Model
     /**
      * Get the parent imageable model (user or post).
      */
-    public function imageable() : MorphTo
+    public function imageable(): MorphTo
     {
         return $this->morphTo();
     }
