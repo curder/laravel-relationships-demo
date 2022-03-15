@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 
 /**
- * @property integer $id
+ * @property int $id
  * @property Collection $comments
  */
 class Video extends Model

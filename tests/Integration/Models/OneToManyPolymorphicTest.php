@@ -1,13 +1,14 @@
 <?php
+
 namespace Tests\Integration\Models;
 
-use Illuminate\Database\Eloquent\Relations\MorphMany;
-use Tests\TestCase;
+use App\Models\Comment;
 use App\Models\Post;
 use App\Models\Video;
-use App\Models\Comment;
 use Illuminate\Database\Eloquent\Collection;
+use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
+use Tests\TestCase;
 
 class OneToManyPolymorphicTest extends TestCase
 {

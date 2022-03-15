@@ -13,6 +13,7 @@ class Comment extends Model
     protected $casts = [
         'commentable_id' => 'integer',
     ];
+
     /**
      * Get the parent commentable model (post or video).
      */
