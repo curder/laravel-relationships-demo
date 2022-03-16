@@ -10,8 +10,13 @@ class Video extends Model
 {
     use HasFactory;
 
+    protected $casts = [
+        'pivot_taggable_id' => 'integer',
+    ];
+
     public function tags(): MorphToMany
     {
-        return $this->morphToMany(Tag::class, 'taggable');
+        return $this->morphToMany(Tag::class, 'taggable')
+                    ->using(Taggable::class);
     }
 }

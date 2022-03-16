@@ -6,6 +6,9 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
 
+/**
+ * @property \Illuminate\Database\Eloquent\Collection $videos
+ */
 class Tag extends Model
 {
     use HasFactory;
@@ -33,6 +36,8 @@ class Tag extends Model
      */
     public function videos(): MorphToMany
     {
-        return $this->morphedByMany(Video::class, 'taggable');
+        return $this->morphedByMany(Video::class, 'taggable')
+                    ->using(Taggable::class)
+                    ->withTimestamps();
     }
 }

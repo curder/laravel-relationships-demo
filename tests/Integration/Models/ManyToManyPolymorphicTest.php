@@ -4,6 +4,7 @@ namespace Tests\Integration\Models;
 
 use App\Models\Post;
 use App\Models\Tag;
+use App\Models\Taggable;
 use App\Models\Video;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
@@ -19,6 +20,7 @@ class ManyToManyPolymorphicTest extends TestCase
     {
         $post = Post::factory()->hasAttached(Tag::factory()->count(20)->create())->create();
         $this->assertInstanceOf(Collection::class, $post->tags);
+        $this->assertInstanceOf(Taggable::class, $post->tags->first()->pivot);
 
         $this->assertInstanceOf(Collection::class, $post->tags);
         $this->assertInstanceOf(Tag::class, $post->tags->first());
@@ -33,6 +35,7 @@ class ManyToManyPolymorphicTest extends TestCase
     {
         $video = Video::factory()->hasAttached(Tag::factory()->count(20)->create())->create();
         $this->assertInstanceOf(Collection::class, $video->tags);
+        $this->assertInstanceOf(Taggable::class, $video->tags->first()->pivot);
 
         $this->assertInstanceOf(Collection::class, $video->tags);
         $this->assertInstanceOf(Tag::class, $video->tags->first());
