@@ -55,7 +55,6 @@ class TagTest extends TestCase
         $this->assertFalse($tag->posts->isEmpty());
         $this->assertSame($tag->posts->first()->getOriginal('pivot_taggable_id'), $tag->id);
         $this->assertSame($tag->posts->first()->getOriginal('pivot_taggable_type'), Post::class);
-
     }
 
     /** @test */
@@ -74,6 +73,5 @@ class TagTest extends TestCase
         $this->assertFalse($tag->videos->isEmpty());
         $this->assertSame($tag->videos->first()->getOriginal('pivot_taggable_id'), $tag->id);
         $this->assertSame($tag->videos->first()->getOriginal('pivot_taggable_type'), Video::class);
-
     }
 }
