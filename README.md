@@ -1,8 +1,8 @@
 # hasManyThrough 远层一对多
 
-[![Test Laravel Github action](https://github.com/curder/laravel-relationships-demo/actions/workflows/run-test.yml/badge.svg?branch=has-many-through)](https://github.com/curder/laravel-relationships-demo/actions/workflows/run-test.yml)
-[![PHPStan](https://github.com/curder/laravel-relationships-demo/actions/workflows/phpstan.yml/badge.svg?branch=has-many-through)](https://github.com/curder/laravel-relationships-demo/actions/workflows/phpstan.yml)
-[![Check & fix styling](https://github.com/curder/laravel-relationships-demo/actions/workflows/php-cs-fixer.yml/badge.svg?branch=has-many-through)](https://github.com/curder/laravel-relationships-demo/actions/workflows/php-cs-fixer.yml)
+[![Test Laravel Github action](https://github.com/curder/laravel-relationships-demo/actions/workflows/run-test.yml/badge.svg?branch=has-many-through)](https://github.com/curder/laravel-relationships-demo/actions/workflows/run-test.yml?query=branch%3Ahas-many-through+)
+[![PHPStan](https://github.com/curder/laravel-relationships-demo/actions/workflows/phpstan.yml/badge.svg?branch=has-many-through)](https://github.com/curder/laravel-relationships-demo/actions/workflows/phpstan.yml?query=branch%3Ahas-many-through+)
+[![Check & fix styling](https://github.com/curder/laravel-relationships-demo/actions/workflows/php-cs-fixer.yml/badge.svg?branch=has-many-through)](https://github.com/curder/laravel-relationships-demo/actions/workflows/php-cs-fixer.yml?query=branch%3Ahas-many-through+)
 
 ## 下载
 
