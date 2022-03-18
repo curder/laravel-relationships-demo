@@ -1,8 +1,8 @@
 # belongsToMany 多对多
 
-[![Test Laravel Github action](https://github.com/curder/laravel-relationships-demo/actions/workflows/run-test.yml/badge.svg?branch=belongs-to-many)](https://github.com/curder/laravel-relationships-demo/actions/workflows/run-test.yml)
-[![PHPStan](https://github.com/curder/laravel-relationships-demo/actions/workflows/phpstan.yml/badge.svg?branch=belongs-to-many)](https://github.com/curder/laravel-relationships-demo/actions/workflows/phpstan.yml)
-[![Check & fix styling](https://github.com/curder/laravel-relationships-demo/actions/workflows/php-cs-fixer.yml/badge.svg?branch=belongs-to-many)](https://github.com/curder/laravel-relationships-demo/actions/workflows/php-cs-fixer.yml)
+[![Test Laravel Github action](https://github.com/curder/laravel-relationships-demo/actions/workflows/run-test.yml/badge.svg?branch=belongs-to-many)](https://github.com/curder/laravel-relationships-demo/actions/workflows/run-test.yml?query=branch%3Abelongs-to-many)
+[![PHPStan](https://github.com/curder/laravel-relationships-demo/actions/workflows/phpstan.yml/badge.svg?branch=belongs-to-many)](https://github.com/curder/laravel-relationships-demo/actions/workflows/phpstan.yml?query=branch%3Abelongs-to-many)
+[![Check & fix styling](https://github.com/curder/laravel-relationships-demo/actions/workflows/php-cs-fixer.yml/badge.svg?branch=belongs-to-many)](https://github.com/curder/laravel-relationships-demo/actions/workflows/php-cs-fixer.yml?query=branch%3Abelongs-to-many)
 
 ## 下载
 
