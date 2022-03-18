@@ -9,9 +9,9 @@ use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 
 /**
- * @property MorphOne latestImage
- * @property MorphOne oldestImage
- * @property MorphOne bestImage
+ * @property Image $latestImage
+ * @property Image $oldestImage
+ * @property Image $bestImage
  */
 class User extends Authenticatable
 {

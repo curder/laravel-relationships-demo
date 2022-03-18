@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 
 /**
- * @property MorphTo imageable
+ * @property MorphTo $imageable
  */
 class Image extends Model
 {
