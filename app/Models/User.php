@@ -9,9 +9,9 @@ use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 
 /**
- * @property HasOne latestOrder
- * @property HasOne oldestOrder
- * @property HasOne largestOrder
+ * @property Order $latestOrder
+ * @property Order $oldestOrder
+ * @property Order $largestOrder
  */
 class User extends Authenticatable
 {
