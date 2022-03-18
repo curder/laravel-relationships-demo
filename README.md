@@ -1,8 +1,8 @@
 # hasMany 一对多
 
-[![GitHub Tests Action Status](https://github.com/curder/laravel-relationships-demo/actions/workflows/run-test.yml/badge.svg?branch=has-many)](https://github.com/curder/laravel-relationships-demo/actions?query=run-test%3Ahas-many)
-[![PHPStan](https://github.com/curder/laravel-relationships-demo/actions/workflows/phpstan.yml/badge.svg?branch=has-many)](https://github.com/curder/laravel-relationships-demo/actions/workflows/phpstan.yml)
-[![GitHub Code Style Action Status](https://github.com/curder/laravel-relationships-demo/actions/workflows/php-cs-fixer.yml/badge.svg?branch=has-many)](https://github.com/curder/laravel-relationships-demo/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Ahas-many)
+[![GitHub Tests Action Status](https://github.com/curder/laravel-relationships-demo/actions/workflows/run-test.yml/badge.svg?branch=has-many)](https://github.com/curder/laravel-relationships-demo/actions/workflows/run-test.yml?query=branch%3Ahas-many+)
+[![PHPStan](https://github.com/curder/laravel-relationships-demo/actions/workflows/phpstan.yml/badge.svg?branch=has-many)](https://github.com/curder/laravel-relationships-demo/actions/workflows/phpstan.yml?query=branch%3Ahas-many+)
+[![GitHub Code Style Action Status](https://github.com/curder/laravel-relationships-demo/actions/workflows/php-cs-fixer.yml/badge.svg?branch=has-many)](https://github.com/curder/laravel-relationships-demo/actions/workflows/php-cs-fixer.yml?query=workflow%3A%22Check+%26+fix+styling%22+branch%3Ahas-many)
 
 ## 下载
 
