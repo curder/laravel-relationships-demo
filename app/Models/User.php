@@ -11,8 +11,8 @@ use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 
 /**
- * @property HasOne country
- * @property HasMany posts
+ * @property Country $country
+ * @property array<Post> $posts
  */
 class User extends Authenticatable
 {

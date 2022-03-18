@@ -7,9 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasManyThrough;
 
 /**
- * @property int id
- *
- * @property HasManyThrough posts
+ * @property int $id
+ * @property array<Post> $posts
  */
 class Country extends Model
 {
