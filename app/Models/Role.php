@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 /**
- * @property BelongsToMany users
+ * @property BelongsToMany $users
  */
 class Role extends Model
 {
