@@ -1,7 +1,7 @@
 # ManyToManyPolymorphicRelations 多态多对多
 
 [![Test Laravel Github action](https://github.com/curder/laravel-relationships-demo/actions/workflows/run-test.yml/badge.svg?branch=many-to-many-polymorphic-relations)](https://github.com/curder/laravel-relationships-demo/actions/workflows/run-test.yml?query=branch%3Amany-to-many-polymorphic-relations)
-[![PHPStan](https://github.com/curder/laravel-relationships-demo/actions/workflows/phpstan.yml/badge.svg?branch=many-to-many-polymorphic-relationships)](https://github.com/curder/laravel-relationships-demo/actions/workflows/run-test.yml?query=branch%3Amany-to-many-polymorphic-relations)
+[![PHPStan](https://github.com/curder/laravel-relationships-demo/actions/workflows/phpstan.yml/badge.svg?branch=many-to-many-polymorphic-relationships)](https://github.com/curder/laravel-relationships-demo/actions/workflows/phpstan.yml?query=branch%3Amany-to-many-polymorphic-relations)
 [![Check & fix styling](https://github.com/curder/laravel-relationships-demo/actions/workflows/php-cs-fixer.yml/badge.svg?branch=many-to-many-polymorphic-relations)](https://github.com/curder/laravel-relationships-demo/actions/workflows/php-cs-fixer.yml?query=branch%3Amany-to-many-polymorphic-relations)
 
 ## 下载
