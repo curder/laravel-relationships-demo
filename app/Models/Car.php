@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 /**
- * @property BelongsTo mechanic
+ * @property Mechanic $mechanic
  */
 class Car extends Model
 {

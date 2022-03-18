@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasOneThrough;
 
 /**
- * @property Owner|HasOneThrough|null carOwner
+ * @property Owner $carOwner
  */
 class Mechanic extends Model
 {

@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 /**
- * @property \App\Models\Car|BelongsTo|null car
+ * @property Car $car
  */
 class Owner extends Model
 {
