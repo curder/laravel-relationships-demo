@@ -7,8 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 /**
- * @property int user_id
- * @property \App\Models\User user
+ * @property int $user_id
+ * @property \App\Models\User $user
  */
 class Post extends Model
 {
